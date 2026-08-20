@@ -1,0 +1,1263 @@
+<#interaction-8d053636-7562-45c6-aece-3ff0f5ec4ff8-user> <http://schema.org/text> "{\"ageRange\":\"18\",\"favoriteGenres\":[\"pop\",\"k-pop\",\"rnb\"],\"selectedSongs\":[{\"id\":\"3251065641\",\"title\":\"Chill\",\"artist\":\"LISA\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/8e87690a458cb1629014434230b84001/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/8/3/4/0/8349aaf052f57ffcbc1265f5f1849011.mp3?hdnea=exp=1785839690~acl=/api/1/1/8/3/4/0/8349aaf052f57ffcbc1265f5f1849011.mp3*~data=user_id=0,application_id=42~hmac=765e0f5eed2cb8f1810da638e7373a9c7d9b2198951e0f1be7f5ea0dbebaa956\"},{\"id\":\"566459132\",\"title\":\"Case\",\"artist\":\"Teni\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/43626ed028c0b3cc55903e19bf7a1539/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/5/a/0/0/5a0057dcb0cefc4d6ebfb7fedda6aa1d.mp3?hdnea=exp=1785839697~acl=/api/1/1/5/a/0/0/5a0057dcb0cefc4d6ebfb7fedda6aa1d.mp3*~data=user_id=0,application_id=42~hmac=a7f2540169b1ab87f90f710d4cde87106b5504912c68e75cf8e6ada513d038f2\"},{\"id\":\"971351262\",\"title\":\"Fix You\",\"artist\":\"Bossa Bros\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/cc917d1e49193299d21cb38801329ac6/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/0/f/5/0/0f54d0739379fd6539d4ccd5a1406554.mp3?hdnea=exp=1785839702~acl=/api/1/1/0/f/5/0/0f54d0739379fd6539d4ccd5a1406554.mp3*~data=user_id=0,application_id=42~hmac=4603cb21ee3555dd0281c413a7d917c058034f1c78799aa2a5fcf35170a46bcd\"},{\"id\":\"3138211741\",\"title\":\"G.Ö.T.\",\"artist\":\"Summer Cem\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/3c858496efc1bafa9d3b5732d787c66e/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/8/7/9/0/87997213661100a47a8a8038825c540e.mp3?hdnea=exp=1785839708~acl=/api/1/1/8/7/9/0/87997213661100a47a8a8038825c540e.mp3*~data=user_id=0,application_id=42~hmac=b18ca8d973b0a65ab74152c962ab292632d0f3ccb99d0bece88bb768fc628f2b\"},{\"id\":\"3664342\",\"title\":\"Seize the Day\",\"artist\":\"Avenged Sevenfold\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/597bec65c513da909f92ac1b5cef44d6/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/5/f/e/0/5fe9589c17c86a7406b796c43db0cb28.mp3?hdnea=exp=1785839714~acl=/api/1/1/5/f/e/0/5fe9589c17c86a7406b796c43db0cb28.mp3*~data=user_id=0,application_id=42~hmac=e39989c557f700efc491dbf0091924d17aeebe6b2d7a76935fb683ec3004340f\"}],\"playlistTheme\":\"chill and work\",\"llm\":\"GPT\"}";
+    <http://purl.org/dc/terms/created> "2026-08-04T10:20:26.779Z";
+    <http://schema.org/name> "User Preference Payload";
+    <https://schema.org/role> "user_payload".
+<#interaction-f34c574b-9901-472b-ab36-f5e30ad3c5fa-assistant> <http://schema.org/text> "[{\"title\":\"Peaches\",\"artist\":\"Miynt\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/504c982055bdf0138c12e369af1afbe6/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/1/9/f/0/19fa34da708ca05fdc832d970db34b92.mp3?hdnea=exp=1785839725~acl=/api/1/1/1/9/f/0/19fa34da708ca05fdc832d970db34b92.mp3*~data=user_id=0,application_id=42~hmac=9d6950e942a646a460dd2697c229b38f19d38b1f3646b7ab959bde4742dc741f\",\"link\":\"https://www.deezer.com/track/1195211482\"},{\"title\":\"Dynamite\",\"artist\":\"BTS\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/a4cd18eed9833c7d10fc7a830573bf23/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/a/a/5/0/aa54c72b731e33f1bce82fb15a286ec9.mp3?hdnea=exp=1785839726~acl=/api/1/1/a/a/5/0/aa54c72b731e33f1bce82fb15a286ec9.mp3*~data=user_id=0,application_id=42~hmac=dd9c7b41b43887df1abb63b60739c353d788097cfa24ab50942225471f838c31\",\"link\":\"https://www.deezer.com/track/1564465082\"},{\"title\":\"Good Days\",\"artist\":\"SZA\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/8aafccd5fc82acdebc88372bd1bef371/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/7/1/1/0/711000e4b2510e58e2f9e5fc265be4ea.mp3?hdnea=exp=1785839726~acl=/api/1/1/7/1/1/0/711000e4b2510e58e2f9e5fc265be4ea.mp3*~data=user_id=0,application_id=42~hmac=1c6f8a152d837676b3da3ec4c57a0c89e66632d090c70680144d70d41af8a060\",\"link\":\"https://www.deezer.com/track/1189202982\"},{\"title\":\"Butterfly Effect\",\"artist\":\"BOL4\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/5b1940ed029b9ea685cbb06fe0bd1038/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/9/f/e/0/9fe2e3d97e9554345584daa88dd858bd.mp3?hdnea=exp=1785839726~acl=/api/1/1/9/f/e/0/9fe2e3d97e9554345584daa88dd858bd.mp3*~data=user_id=0,application_id=42~hmac=8ddc2eda56e6bda955e83cceb6de0a2df4aa0241357e2ba9262715ce47874a3e\",\"link\":\"https://www.deezer.com/track/1531898222\"},{\"title\":\"Night Changes\",\"artist\":\"One Direction\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/44d6c40a5d127528c991b1923948d4bd/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/4/3/5/0/435bd69761c2c3138582003d0c8ca435.mp3?hdnea=exp=1785839726~acl=/api/1/1/4/3/5/0/435bd69761c2c3138582003d0c8ca435.mp3*~data=user_id=0,application_id=42~hmac=d37d8898c2301817282126fd75e1d99bb61a122fb7368ffc4df6ce577cb8c937\",\"link\":\"https://www.deezer.com/track/90248141\"}]";
+    <http://purl.org/dc/terms/created> "2026-08-04T10:20:26.779Z";
+    <http://schema.org/name> "LLM Recommendations";
+    <https://schema.org/role> "assistant_response".
+<#interaction-dbce7c8a-dc1f-4732-848e-5365cd10a870-user> <http://schema.org/text> "{\"ageRange\":\"18\",\"favoriteGenres\":[\"rnb\",\"k-pop\",\"metal\"],\"selectedSongs\":[{\"id\":\"3784724892\",\"title\":\"Talk To You (ft. 54 Ultra)\",\"artist\":\"ANOTR\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/ab1abe2d073bf5a55943ccc6dff8bcdc/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/4/a/5/0/4a502942465c7d20da6ca658c15258f0.mp3?hdnea=exp=1786201053~acl=/api/1/1/4/a/5/0/4a502942465c7d20da6ca658c15258f0.mp3*~data=user_id=0,application_id=42~hmac=63f3418f14e36d057600488fb8a5feedda6e49090bb79f1e0947c9da354b00f8\"},{\"id\":\"116914022\",\"title\":\"Time\",\"artist\":\"Pink Floyd\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/e635a8510c1a74bc089b3566ebbb9cb8/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/9/3/5/0/9357d5b3140ee6747b71aa469b1fa58c.mp3?hdnea=exp=1786201059~acl=/api/1/1/9/3/5/0/9357d5b3140ee6747b71aa469b1fa58c.mp3*~data=user_id=0,application_id=42~hmac=ade72c0f3fed94c982db40813ba39eca6858946eec42905ed49cd86bf72690c8\"},{\"id\":\"111851366\",\"title\":\"Ça (c'est vraiment toi) (Remasterisé en 2015)\",\"artist\":\"Téléphone\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/ab7e95cada539e2cc9abdef4c46b225b/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/4/9/9/0/499ea0e5c676a952909b5cbcf85c08e6.mp3?hdnea=exp=1786201065~acl=/api/1/1/4/9/9/0/499ea0e5c676a952909b5cbcf85c08e6.mp3*~data=user_id=0,application_id=42~hmac=175f8489f3b20992323f12fd2c047735e7a8ed9d43b63f81ed1bd360432fb574\"},{\"id\":\"4179458212\",\"title\":\"Pilé\",\"artist\":\"Mauvais Djo\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/1b219ab9ce99a13d2a2af7360a34c037/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/a/c/a/0/aca58d3c0a4cf8d1869c7329df6eb762.mp3?hdnea=exp=1786201073~acl=/api/1/1/a/c/a/0/aca58d3c0a4cf8d1869c7329df6eb762.mp3*~data=user_id=0,application_id=42~hmac=0ed87a7e8d4fc25e0e819f144293cdb991926980dc28d9fd1949faafc210476b\"},{\"id\":\"61424044\",\"title\":\"Can't Hold Us (feat. Ray Dalton)\",\"artist\":\"Macklemore\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/238f1c36e8445fd162d1d53b8181ecb5/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/b/c/6/0/bc66a201d24622fb130e7a624b1679fd.mp3?hdnea=exp=1786201078~acl=/api/1/1/b/c/6/0/bc66a201d24622fb130e7a624b1679fd.mp3*~data=user_id=0,application_id=42~hmac=8c663425ba1054302aea9ff72f32bd9f8e6162414ee1cf6c51e5533c3ca737ad\"}],\"playlistTheme\":\"chill\",\"llm\":\"GPT\"}";
+    <http://purl.org/dc/terms/created> "2026-08-08T14:43:17.191Z";
+    <http://schema.org/name> "User Preference Payload";
+    <https://schema.org/role> "user_payload".
+<#interaction-8fe21f68-503b-4f95-8066-d6f14b1e38dd-assistant> <http://schema.org/text> "[{\"title\":\"Save Me\",\"artist\":\"BTS\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/2e578022fe1af5248409c9596171b124/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/7/8/7/0/7877bc5a2625425487e9b3a67e28ebc1.mp3?hdnea=exp=1786201096~acl=/api/1/1/7/8/7/0/7877bc5a2625425487e9b3a67e28ebc1.mp3*~data=user_id=0,application_id=42~hmac=7cc61ce1c32f23c41e1a0850cef4122d3e25bb066d9e695145b431212349fd74\",\"link\":\"https://www.deezer.com/track/1576169632\"},{\"title\":\"Adore You\",\"artist\":\"Harry Styles\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/346c524c15ecccbc4a8a78e8972a352c/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/3/9/0/0/390b7601c8e7ca401635ee680d222c72.mp3?hdnea=exp=1786201096~acl=/api/1/1/3/9/0/0/390b7601c8e7ca401635ee680d222c72.mp3*~data=user_id=0,application_id=42~hmac=9417bff79e89440a3b6c9f072fa25f70ad3f6cc3598d34099f5df92c3e625b3a\",\"link\":\"https://www.deezer.com/track/830336932\"},{\"title\":\"Love Galore (Alt Version)\",\"artist\":\"SZA\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/94fb55d5a1af07e0f43638b6de1cb41c/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/e/7/e/0/e7e42cfbb80024d400a8893425a240af.mp3?hdnea=exp=1786201096~acl=/api/1/1/e/7/e/0/e7e42cfbb80024d400a8893425a240af.mp3*~data=user_id=0,application_id=42~hmac=3483074626c65cd105ef0be94bc485f8b47fc1ae47f2a3584b379d0bff3fe53c\",\"link\":\"https://www.deezer.com/track/1782698117\"},{\"title\":\"Sweet Night\",\"artist\":\"Klim\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/8e29a38f860380189288def578361560/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/8/8/0/0/88006a7c0b6f4b7eb992c0ab191d0f08.mp3?hdnea=exp=1786201096~acl=/api/1/1/8/8/0/0/88006a7c0b6f4b7eb992c0ab191d0f08.mp3*~data=user_id=0,application_id=42~hmac=1823fe707483e5fd35b1f630c27840cfeb47123f33fce9fbc376c8cf8b542777\",\"link\":\"https://www.deezer.com/track/804151832\"},{\"title\":\"Shadow Moses\",\"artist\":\"Bring Me The Horizon\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/a07217215143d39c9b7854fffb7ecc1c/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/8/e/d/0/8ed291b372d2e3ae654124e39f60658d.mp3?hdnea=exp=1786201097~acl=/api/1/1/8/e/d/0/8ed291b372d2e3ae654124e39f60658d.mp3*~data=user_id=0,application_id=42~hmac=3cc99577cd1772250566593066ce70acd6ab4566752a5b7fa3368ab822ced962\",\"link\":\"https://www.deezer.com/track/65245766\"}]";
+    <http://purl.org/dc/terms/created> "2026-08-08T14:43:17.193Z";
+    <http://schema.org/name> "LLM Recommendations";
+    <https://schema.org/role> "assistant_response".
+<#interaction-2bc1aa7b-2c16-4dcc-a4f5-ea5419447578-user> <http://schema.org/text> "{\"ageRange\":\"18\",\"favoriteGenres\":[\"k-pop\",\"pop\",\"metal\"],\"selectedSongs\":[{\"id\":\"1483825282\",\"title\":\"Nothing Else Matters (Remastered 2021)\",\"artist\":\"Metallica\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/4f2093c9d25852c8f1937ae5a47b99a6/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/d/8/9/0/d897487b8b86e39b13d94a5ad5996cbc.mp3?hdnea=exp=1786324118~acl=/api/1/1/d/8/9/0/d897487b8b86e39b13d94a5ad5996cbc.mp3*~data=user_id=0,application_id=42~hmac=ee2f4db44f7d747a3935fd637c58a734a2f1161f29b4cffb49b722778fe29b55\"},{\"id\":\"3930386631\",\"title\":\"Météo\",\"artist\":\"Bello&Dallas\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/768079d6c4bcf67f60b4327e8dd844a3/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/1/4/b/0/14ba119e902661bf49341a3ab77495cb.mp3?hdnea=exp=1786324118~acl=/api/1/1/1/4/b/0/14ba119e902661bf49341a3ab77495cb.mp3*~data=user_id=0,application_id=42~hmac=74ea23a2d0f9f6a55e597e2d859bdbf2e372253c8d2db6988a23acd89e0ad9ac\"},{\"id\":\"1483825212\",\"title\":\"Enter Sandman (Remastered 2021)\",\"artist\":\"Metallica\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/4f2093c9d25852c8f1937ae5a47b99a6/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/c/7/0/0/c70d7e81abc196d915aadd1e7489a75a.mp3?hdnea=exp=1786324118~acl=/api/1/1/c/7/0/0/c70d7e81abc196d915aadd1e7489a75a.mp3*~data=user_id=0,application_id=42~hmac=883649480727d9f8b405eed7b3a5ab920fa7a00a833648c6b76f8b6f26443cd8\"},{\"id\":\"10240179\",\"title\":\"The Look\",\"artist\":\"Metronomy\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/9f672642bc8b1813bc682edc07078a82/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/f/f/0/0/ff03dd9131b7e67b055f9efda6a6abd4.mp3?hdnea=exp=1786324118~acl=/api/1/1/f/f/0/0/ff03dd9131b7e67b055f9efda6a6abd4.mp3*~data=user_id=0,application_id=42~hmac=3b73040dfd86a7952b72ae9bfc0302c9aaea33552d722ef389ba309e59e8c8c4\"},{\"id\":\"4126364251\",\"title\":\"BB ALMA\",\"artist\":\"Metah\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/16cb9b4b17a08bedf8a994e9ec5f1961/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/6/3/4/0/6345248b33bf55a51ea9fbcc93147b5e.mp3?hdnea=exp=1786324118~acl=/api/1/1/6/3/4/0/6345248b33bf55a51ea9fbcc93147b5e.mp3*~data=user_id=0,application_id=42~hmac=217046b932e803a902f0680c58a7935765d163d6a08a69cbd34e32633b70e066\"}],\"playlistTheme\":\"workflow\",\"llm\":\"GPT\"}";
+    <http://purl.org/dc/terms/created> "2026-08-10T00:54:07.388Z";
+    <http://schema.org/name> "User Preference Payload";
+    <https://schema.org/role> "user_payload".
+<#interaction-b5442e0f-a526-4a40-aa13-8a6f2ecdaaab-assistant> <http://schema.org/text> "[{\"title\":\"Euphoria\",\"artist\":\"BTS\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/94ea7378f26372a445a76b3b33d558d5/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/5/3/1/0/5318e2dabddf774ebb7dc950d653fdaf.mp3?hdnea=exp=1786324147~acl=/api/1/1/5/3/1/0/5318e2dabddf774ebb7dc950d653fdaf.mp3*~data=user_id=0,application_id=42~hmac=48a8304c0106e6b6a3957e56288fe435ea16d075138a09a5c32a07816872fd56\",\"link\":\"https://www.deezer.com/track/1576170792\"},{\"title\":\"Levitating (feat. DaBaby)\",\"artist\":\"Dua Lipa\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/ddc6b752586a1eb1ab4c6579eae03344/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/4/4/f/0/44f2f725cc8b8177a13b0313b08e8495.mp3?hdnea=exp=1786324147~acl=/api/1/1/4/4/f/0/44f2f725cc8b8177a13b0313b08e8495.mp3*~data=user_id=0,application_id=42~hmac=5f9fce4e8f14ace26125f61b18f20192de7703bb0900e18a21126f8e16a2e102\",\"link\":\"https://www.deezer.com/track/1234638792\"},{\"title\":\"Numb\",\"artist\":\"Linkin Park\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/44df4f6fb2534768f4924365c103d0f7/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/4/2/b/0/42b05e42e6f684b6a2de860831cfa91a.mp3?hdnea=exp=1786324147~acl=/api/1/1/4/2/b/0/42b05e42e6f684b6a2de860831cfa91a.mp3*~data=user_id=0,application_id=42~hmac=5e7106d9d56edd1adb9684490e8464a3b2daa64787a3e54634020155fa5e551b\",\"link\":\"https://www.deezer.com/track/677232\"},{\"title\":\"The Less I Know The Better\",\"artist\":\"Tame Impala\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/de5b9b704cd4ec36f8bf49beb3e17ba2/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/d/7/e/0/d7e09f788f6834e38f61f8a589b0390a.mp3?hdnea=exp=1786324147~acl=/api/1/1/d/7/e/0/d7e09f788f6834e38f61f8a589b0390a.mp3*~data=user_id=0,application_id=42~hmac=494b1a718f5ef7cda93e9a502f9fa732e6aab1e44085fdfb0afaeff427119ab8\",\"link\":\"https://www.deezer.com/track/103052662\"},{\"title\":\"Run\",\"artist\":\"Snow Patrol\",\"cover\":\"https://cdn-images.dzcdn.net/images/cover/e510cb266ace738f9c1ee15f44d81ef1/250x250-000000-80-0-0.jpg\",\"preview\":\"https://cdnt-preview.dzcdn.net/api/1/1/d/4/1/0/d41e1721acdc6a2d4a7fe8a5ff6bc9af.mp3?hdnea=exp=1786324147~acl=/api/1/1/d/4/1/0/d41e1721acdc6a2d4a7fe8a5ff6bc9af.mp3*~data=user_id=0,application_id=42~hmac=00c9684e7b6489f73127898341c14926da31888afc1c90071b68616abce4709b\",\"link\":\"https://www.deezer.com/track/1138321\"}]";
+    <http://purl.org/dc/terms/created> "2026-08-10T00:54:07.390Z";
+    <http://schema.org/name> "LLM Recommendations";
+    <https://schema.org/role> "assistant_response".
+<#song-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "3935042711";
+    <https://schema.org/name> "METAL";
+    <https://schema.org/byArtist> <#artist-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-0>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/16037ff49ab332a8735836b86b3efd74/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-0>.
+<#artist-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Rounhaa".
+<#audio-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-0> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/2/7/6/0/2765c97fd27c33ef267c9f3f86a7f830.mp3?hdnea=exp=1786324315~acl=/api/1/1/2/7/6/0/2765c97fd27c33ef267c9f3f86a7f830.mp3*~data=user_id=0,application_id=42~hmac=ecaf0b703acf8c226920bd51d0ff74309ec49a16271d847efca06f8caa1519a8>.
+<#song-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "1483825282";
+    <https://schema.org/name> "Nothing Else Matters (Remastered 2021)";
+    <https://schema.org/byArtist> <#artist-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-1>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/4f2093c9d25852c8f1937ae5a47b99a6/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-1>.
+<#artist-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Metallica".
+<#audio-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-1> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/d/8/9/0/d897487b8b86e39b13d94a5ad5996cbc.mp3?hdnea=exp=1786324315~acl=/api/1/1/d/8/9/0/d897487b8b86e39b13d94a5ad5996cbc.mp3*~data=user_id=0,application_id=42~hmac=16b63189979c84d620ab92ed1e3e74218f33070708dace0faca5746faf7c5108>.
+<#song-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "1483825212";
+    <https://schema.org/name> "Enter Sandman (Remastered 2021)";
+    <https://schema.org/byArtist> <#artist-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-2>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/4f2093c9d25852c8f1937ae5a47b99a6/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-2>.
+<#artist-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Metallica".
+<#audio-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-2> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/c/7/0/0/c70d7e81abc196d915aadd1e7489a75a.mp3?hdnea=exp=1786324315~acl=/api/1/1/c/7/0/0/c70d7e81abc196d915aadd1e7489a75a.mp3*~data=user_id=0,application_id=42~hmac=bd238344575d7ee24c34718cc1fe05763dd0d2a0a722cf497829773dfa436cba>.
+<#song-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "683883422";
+    <https://schema.org/name> "Metal & Plastic";
+    <https://schema.org/byArtist> <#artist-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-3>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/7a73c97fc2aefd69b722bc84017c32ba/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-3>.
+<#artist-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Eagle Eyed Tiger".
+<#audio-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-3> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/c/a/1/0/ca16e95127d67e35de937423094d6174.mp3?hdnea=exp=1786324315~acl=/api/1/1/c/a/1/0/ca16e95127d67e35de937423094d6174.mp3*~data=user_id=0,application_id=42~hmac=b19533a3faaca22e7114a9aa0d6bd46351f935cadce57204ae9837d08b237033>.
+<#song-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "1983388677";
+    <https://schema.org/name> "Métal";
+    <https://schema.org/byArtist> <#artist-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-4>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/c4fd8e9a8dbfd5754179ef560d7f6e8f/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-4>.
+<#artist-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Kerchak".
+<#audio-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-4> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/2/a/0/0/2a06fa5be9b7e820ef38709420644bfb.mp3?hdnea=exp=1786324315~acl=/api/1/1/2/a/0/0/2a06fa5be9b7e820ef38709420644bfb.mp3*~data=user_id=0,application_id=42~hmac=7d85c10c11b0b4a0e41fbfaf0989a63525c685dbe9e7bbc3a154339c1390908e>.
+<#interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user> <https://schema.org/role> "user_payload";
+    a <https://schema.org/UserInteraction>;
+    <https://schema.org/name> "User Preference Payload";
+    <https://schema.org/dateCreated> "2026-08-10T00:57:13.664Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/provider> "GPT";
+    <https://schema.org/suggestedMinAge> "18";
+    <https://schema.org/keywords> "workout";
+    <https://schema.org/genre> "k-pop", "rnb", "indie";
+    <https://schema.org/track> <#song-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-0>, <#song-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-1>, <#song-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-2>, <#song-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-3>, <#song-interaction-ca84f9a5-372d-4ba3-ad6d-978982d029b2-user-4>.
+<#rec-song-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "DNA";
+    <https://schema.org/byArtist> <#rec-artist-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-0>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/ff2321f46527178fcbe09b5164450c39/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-0>.
+<#rec-artist-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "BTS".
+<#rec-audio-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-0> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/e/b/b/0/ebbbc9a16f4793f883f9ef1d51f34733.mp3?hdnea=exp=1786324333~acl=/api/1/1/e/b/b/0/ebbbc9a16f4793f883f9ef1d51f34733.mp3*~data=user_id=0,application_id=42~hmac=723dbb6e614ac17844197484cd1a4033225b94d1a02fdf65a65c86cb5ca143bf>.
+<#rec-song-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Ride";
+    <https://schema.org/byArtist> <#rec-artist-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-1>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/dbbde1014cda9b101412a8e27add0ad2/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-1>.
+<#rec-artist-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Twenty One Pilots".
+<#rec-audio-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-1> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/5/2/e/0/52e21c003066ce59e61cfc33e5256836.mp3?hdnea=exp=1786324333~acl=/api/1/1/5/2/e/0/52e21c003066ce59e61cfc33e5256836.mp3*~data=user_id=0,application_id=42~hmac=c967f2b256e75167df6485ab9e805bbb830a70c2ceb7c651dbb3ea5b5586dfe4>.
+<#rec-song-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Don't Start Now";
+    <https://schema.org/byArtist> <#rec-artist-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-2>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/f8364f090ba04f1b19b381ec0390f3e4/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-2>.
+<#rec-artist-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Dua Lipa".
+<#rec-audio-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-2> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/a/d/c/0/adc712094a21dfa97e763b4db0d43402.mp3?hdnea=exp=1786324333~acl=/api/1/1/a/d/c/0/adc712094a21dfa97e763b4db0d43402.mp3*~data=user_id=0,application_id=42~hmac=279eecf28f86f6f709ab589920dfda664a54bb1c7912af53d6f1840fec5606ff>.
+<#rec-song-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Levitating";
+    <https://schema.org/byArtist> <#rec-artist-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-3>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/f8364f090ba04f1b19b381ec0390f3e4/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-3>.
+<#rec-artist-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Dua Lipa".
+<#rec-audio-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-3> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/9/c/5/0/9c570bc806fc277bb73ba024e956d057.mp3?hdnea=exp=1786324333~acl=/api/1/1/9/c/5/0/9c570bc806fc277bb73ba024e956d057.mp3*~data=user_id=0,application_id=42~hmac=96f9b325ef91c02dace00691a1276139237cec900642649b55bda2d3aca766f7>.
+<#rec-song-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Bad Habits";
+    <https://schema.org/byArtist> <#rec-artist-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-4>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/63af28b4e046c59293eaf313be13f8f7/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-4>.
+<#rec-artist-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Ed Sheeran".
+<#rec-audio-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-4> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/a/a/8/0/aa8713a8216f5d74c704da0702f4072b.mp3?hdnea=exp=1786324333~acl=/api/1/1/a/a/8/0/aa8713a8216f5d74c704da0702f4072b.mp3*~data=user_id=0,application_id=42~hmac=0517c5e970ddefa72feeb15314d58d887d7e6187fadd5599e2e10bc24e81bebd>.
+<#interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant> <https://schema.org/role> "assistant_response";
+    a <https://schema.org/SearchAction>;
+    <https://schema.org/name> "LLM Recommendations";
+    <https://schema.org/dateCreated> "2026-08-10T00:57:13.664Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/result> <#rec-song-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-0>, <#rec-song-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-1>, <#rec-song-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-2>, <#rec-song-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-3>, <#rec-song-interaction-c6455460-5b24-447b-9dac-3395f77786a2-assistant-4>.
+<#song-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "3935042711";
+    <https://schema.org/name> "METAL";
+    <https://schema.org/byArtist> <#artist-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-0>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/16037ff49ab332a8735836b86b3efd74/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-0>.
+<#artist-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Rounhaa".
+<#audio-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-0> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/2/7/6/0/2765c97fd27c33ef267c9f3f86a7f830.mp3?hdnea=exp=1786324315~acl=/api/1/1/2/7/6/0/2765c97fd27c33ef267c9f3f86a7f830.mp3*~data=user_id=0,application_id=42~hmac=ecaf0b703acf8c226920bd51d0ff74309ec49a16271d847efca06f8caa1519a8>.
+<#song-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "1483825282";
+    <https://schema.org/name> "Nothing Else Matters (Remastered 2021)";
+    <https://schema.org/byArtist> <#artist-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-1>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/4f2093c9d25852c8f1937ae5a47b99a6/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-1>.
+<#artist-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Metallica".
+<#audio-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-1> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/d/8/9/0/d897487b8b86e39b13d94a5ad5996cbc.mp3?hdnea=exp=1786324315~acl=/api/1/1/d/8/9/0/d897487b8b86e39b13d94a5ad5996cbc.mp3*~data=user_id=0,application_id=42~hmac=16b63189979c84d620ab92ed1e3e74218f33070708dace0faca5746faf7c5108>.
+<#song-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "1483825212";
+    <https://schema.org/name> "Enter Sandman (Remastered 2021)";
+    <https://schema.org/byArtist> <#artist-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-2>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/4f2093c9d25852c8f1937ae5a47b99a6/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-2>.
+<#artist-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Metallica".
+<#audio-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-2> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/c/7/0/0/c70d7e81abc196d915aadd1e7489a75a.mp3?hdnea=exp=1786324315~acl=/api/1/1/c/7/0/0/c70d7e81abc196d915aadd1e7489a75a.mp3*~data=user_id=0,application_id=42~hmac=bd238344575d7ee24c34718cc1fe05763dd0d2a0a722cf497829773dfa436cba>.
+<#song-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "683883422";
+    <https://schema.org/name> "Metal & Plastic";
+    <https://schema.org/byArtist> <#artist-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-3>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/7a73c97fc2aefd69b722bc84017c32ba/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-3>.
+<#artist-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Eagle Eyed Tiger".
+<#audio-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-3> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/c/a/1/0/ca16e95127d67e35de937423094d6174.mp3?hdnea=exp=1786324315~acl=/api/1/1/c/a/1/0/ca16e95127d67e35de937423094d6174.mp3*~data=user_id=0,application_id=42~hmac=b19533a3faaca22e7114a9aa0d6bd46351f935cadce57204ae9837d08b237033>.
+<#song-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "1983388677";
+    <https://schema.org/name> "Métal";
+    <https://schema.org/byArtist> <#artist-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-4>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/c4fd8e9a8dbfd5754179ef560d7f6e8f/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-4>.
+<#artist-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Kerchak".
+<#audio-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-4> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/2/a/0/0/2a06fa5be9b7e820ef38709420644bfb.mp3?hdnea=exp=1786324315~acl=/api/1/1/2/a/0/0/2a06fa5be9b7e820ef38709420644bfb.mp3*~data=user_id=0,application_id=42~hmac=7d85c10c11b0b4a0e41fbfaf0989a63525c685dbe9e7bbc3a154339c1390908e>.
+<#interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user> <https://schema.org/role> "user_payload";
+    a <https://schema.org/UserInteraction>;
+    <https://schema.org/name> "User Preference Payload";
+    <https://schema.org/dateCreated> "2026-08-10T00:57:50.795Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/provider> "GPT";
+    <https://schema.org/suggestedMinAge> "18";
+    <https://schema.org/keywords> "chill";
+    <https://schema.org/genre> "k-pop", "rnb", "indie";
+    <https://schema.org/track> <#song-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-0>, <#song-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-1>, <#song-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-2>, <#song-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-3>, <#song-interaction-07ad5168-bcb8-47a6-bdd8-8756fda80a3b-user-4>.
+<#rec-song-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Boy With Luv (Feat. Halsey)";
+    <https://schema.org/byArtist> <#rec-artist-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-0>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/ba01e3de4d64a272543c427914c49e8b/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-0>.
+<#rec-artist-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "BTS".
+<#rec-audio-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-0> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/2/9/b/0/29b046042cff97d8be58662908c37dc5.mp3?hdnea=exp=1786324370~acl=/api/1/1/2/9/b/0/29b046042cff97d8be58662908c37dc5.mp3*~data=user_id=0,application_id=42~hmac=79df196601a0f73a58595027ca2b5e7384564a00dd7f1ac084b94630ac5c1fa9>.
+<#rec-song-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Electric Feel";
+    <https://schema.org/byArtist> <#rec-artist-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-1>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/751372bcbd63a38e6ec6ef8bd448d687/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-1>.
+<#rec-artist-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "MGMT".
+<#rec-audio-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-1> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/9/1/a/0/91a0821300463cd04f48f768546610a5.mp3?hdnea=exp=1786324370~acl=/api/1/1/9/1/a/0/91a0821300463cd04f48f768546610a5.mp3*~data=user_id=0,application_id=42~hmac=02c0c46b2b5b2dae06484946620900cb164c0f1e68a859af91df84a2d0e289a9>.
+<#rec-song-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Watermelon Sugar";
+    <https://schema.org/byArtist> <#rec-artist-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-2>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/346c524c15ecccbc4a8a78e8972a352c/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-2>.
+<#rec-artist-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Harry Styles".
+<#rec-audio-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-2> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/f/7/5/0/f75672f3225537bd26bb33f0f8947618.mp3?hdnea=exp=1786324370~acl=/api/1/1/f/7/5/0/f75672f3225537bd26bb33f0f8947618.mp3*~data=user_id=0,application_id=42~hmac=7c945686b0bd3a2b468fc05cb3723c50a89ba5fedff859ad56865f9b6754d6d0>.
+<#rec-song-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Strawberry Swing";
+    <https://schema.org/byArtist> <#rec-artist-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-3>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/eede3cd0dc3a5a87c7a5b1085b022e2d/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-3>.
+<#rec-artist-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Coldplay".
+<#rec-audio-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-3> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/d/1/a/0/d1aa1b06b8890fa8398380ae3274b5f4.mp3?hdnea=exp=1786324370~acl=/api/1/1/d/1/a/0/d1aa1b06b8890fa8398380ae3274b5f4.mp3*~data=user_id=0,application_id=42~hmac=03e47f5200e01f80b49a4ac34c0c72a4ecef7191c15015e49eb98a661dbb81e2>.
+<#rec-song-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Ivy";
+    <https://schema.org/byArtist> <#rec-artist-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-4>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/f798a866107715dd6dc1049e498ce21f/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-4>.
+<#rec-artist-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Frank Ocean".
+<#rec-audio-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-4> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/d/9/c/0/d9c55abad83593e9c9d2389d428c8d9a.mp3?hdnea=exp=1786324370~acl=/api/1/1/d/9/c/0/d9c55abad83593e9c9d2389d428c8d9a.mp3*~data=user_id=0,application_id=42~hmac=24516eff4934b4180e35eb8f37c99ca7da1793936eb0d49e02b12f13efa30054>.
+<#interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant> <https://schema.org/role> "assistant_response";
+    a <https://schema.org/SearchAction>;
+    <https://schema.org/name> "LLM Recommendations";
+    <https://schema.org/dateCreated> "2026-08-10T00:57:50.795Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/result> <#rec-song-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-0>, <#rec-song-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-1>, <#rec-song-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-2>, <#rec-song-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-3>, <#rec-song-interaction-5b62d3c0-1d82-4993-9d36-494b98391538-assistant-4>.
+<#song-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "3814069442";
+    <https://schema.org/name> "Comme Caroline (feat. MC Solaar)";
+    <https://schema.org/byArtist> <#artist-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-0>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/21ddfa71eeb3cfb5891afafce67a439e/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-0>.
+<#artist-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Zaho".
+<#audio-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-0> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/8/2/5/0/8256392251ae89c01752cb08be8bfad4.mp3?hdnea=exp=1786328934~acl=/api/1/1/8/2/5/0/8256392251ae89c01752cb08be8bfad4.mp3*~data=user_id=0,application_id=42~hmac=94b092004176dad8dd32b665a177e6ff31940db11e7ae0d2874a74188d5cd2b2>.
+<#song-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "3678134142";
+    <https://schema.org/name> "Coco Chanel";
+    <https://schema.org/byArtist> <#artist-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-1>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/a4f446ab4ca831b1f809d3077f87179e/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-1>.
+<#artist-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Meryl".
+<#audio-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-1> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/0/c/0/0/0c01dd623066f4f898757182519ee2ab.mp3?hdnea=exp=1786328934~acl=/api/1/1/0/c/0/0/0c01dd623066f4f898757182519ee2ab.mp3*~data=user_id=0,application_id=42~hmac=45fc4214625ac59dd52751090fef9c1455bbf387424796fc5ffd94926940fee4>.
+<#song-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "3461991861";
+    <https://schema.org/name> "Congolaise";
+    <https://schema.org/byArtist> <#artist-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-2>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/6422e79182b4639fec30c6815e550b80/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-2>.
+<#artist-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Gradur".
+<#audio-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-2> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/4/d/e/0/4de6afde54948950211f63ff5ba40e5b.mp3?hdnea=exp=1786328934~acl=/api/1/1/4/d/e/0/4de6afde54948950211f63ff5ba40e5b.mp3*~data=user_id=0,application_id=42~hmac=19a12b0167cdb99164ea57727c0c66c6579d8a291da6189acdcc46c1c45b7ebc>.
+<#song-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "3837291721";
+    <https://schema.org/name> "Argent Sale - A COLORS SHOW";
+    <https://schema.org/byArtist> <#artist-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-3>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/b4e08d49fea51dfb8c89ab31f66d15cf/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-3>.
+<#artist-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "La Rvfleuze".
+<#audio-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-3> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/3/3/4/0/3342c03436e237c2695168d93e1fd38f.mp3?hdnea=exp=1786328934~acl=/api/1/1/3/3/4/0/3342c03436e237c2695168d93e1fd38f.mp3*~data=user_id=0,application_id=42~hmac=9e4feb24e054ebf8ad6c6c9e2bf7f39af29b24db151f3f612e954b8ad0ba3e28>.
+<#song-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "576851242";
+    <https://schema.org/name> "Copines";
+    <https://schema.org/byArtist> <#artist-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-4>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/41fc3e7a3430f3a5e1c1780b57c3147f/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-4>.
+<#artist-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Aya Nakamura".
+<#audio-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-4> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/e/8/9/0/e8944f971a66617123c96801a3adc7da.mp3?hdnea=exp=1786328934~acl=/api/1/1/e/8/9/0/e8944f971a66617123c96801a3adc7da.mp3*~data=user_id=0,application_id=42~hmac=73a2cdc2b2dce0507f286271ecf8c66e6dc36dcc9187402a1aeb2c1a7a2bc845>.
+<#interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user> <https://schema.org/role> "user_payload";
+    a <https://schema.org/UserInteraction>;
+    <https://schema.org/name> "User Preference Payload";
+    <https://schema.org/dateCreated> "2026-08-10T02:15:19.142Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/provider> "GPT";
+    <https://schema.org/suggestedMinAge> "18";
+    <https://schema.org/keywords> "chill";
+    <https://schema.org/genre> "rnb", "metal", "country";
+    <https://schema.org/track> <#song-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-0>, <#song-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-1>, <#song-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-2>, <#song-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-3>, <#song-interaction-5f8985bc-dc0c-4166-9f38-b90e75975c3d-user-4>.
+<#rec-song-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "STAY";
+    <https://schema.org/byArtist> <#rec-artist-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-0>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/dd6fe7fa9267185c4b835bd4f155d1d2/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-0>.
+<#rec-artist-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "The Kid LAROI".
+<#rec-audio-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-0> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/c/2/7/0/c27d817565b9df8ab6393bb8202b58b9.mp3?hdnea=exp=1786329018~acl=/api/1/1/c/2/7/0/c27d817565b9df8ab6393bb8202b58b9.mp3*~data=user_id=0,application_id=42~hmac=90d2734b90bf69b5366877cf96b869bb5dcae53abfcaa2fb5c7f2f932658f8c3>.
+<#rec-song-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Astronaut In The Ocean";
+    <https://schema.org/byArtist> <#rec-artist-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-1>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/b9349537b1b2771ddbf0630751fa61e3/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-1>.
+<#rec-artist-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Masked Wolf".
+<#rec-audio-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-1> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/2/8/4/0/284b969ba4dea3c1176f3ca8d49c7def.mp3?hdnea=exp=1786329019~acl=/api/1/1/2/8/4/0/284b969ba4dea3c1176f3ca8d49c7def.mp3*~data=user_id=0,application_id=42~hmac=22069e9e4ecedb1177fc37f6cfa7478b87c3eaec1be2111d08a99a380a5712f7>.
+<#rec-song-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "MONTERO (Call Me By Your Name)";
+    <https://schema.org/byArtist> <#rec-artist-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-2>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/fc939e4030254f80bd90b616f2a1d0a6/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-2>.
+<#rec-artist-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Lil Nas X".
+<#rec-audio-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-2> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/8/b/7/0/8b7f0c442e08f6116e458eaa8e3d305f.mp3?hdnea=exp=1786329018~acl=/api/1/1/8/b/7/0/8b7f0c442e08f6116e458eaa8e3d305f.mp3*~data=user_id=0,application_id=42~hmac=310c45fb60bd13647a361773d7e1efa7d1be888f1a0236e1dd1069877f440e56>.
+<#rec-song-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Levitating (feat. DaBaby)";
+    <https://schema.org/byArtist> <#rec-artist-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-3>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/ddc6b752586a1eb1ab4c6579eae03344/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-3>.
+<#rec-artist-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Dua Lipa".
+<#rec-audio-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-3> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/4/4/f/0/44f2f725cc8b8177a13b0313b08e8495.mp3?hdnea=exp=1786329018~acl=/api/1/1/4/4/f/0/44f2f725cc8b8177a13b0313b08e8495.mp3*~data=user_id=0,application_id=42~hmac=cca870be8b3f59d5ff30c32bbcd051e9be6caddfe99aaf993e3ea2abbeeccac8>.
+<#rec-song-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Fancy Like";
+    <https://schema.org/byArtist> <#rec-artist-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-4>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/2145cb4a342fb202ac69b843297e64c9/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-4>.
+<#rec-artist-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Walker Hayes".
+<#rec-audio-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-4> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/b/0/4/0/b04138ce368ee454ca2ffa18dea61c00.mp3?hdnea=exp=1786329018~acl=/api/1/1/b/0/4/0/b04138ce368ee454ca2ffa18dea61c00.mp3*~data=user_id=0,application_id=42~hmac=43520a257543e99db7efd2c1e8bd0ca9087fb1a65150d5349460270f6298c06c>.
+<#interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant> <https://schema.org/role> "assistant_response";
+    a <https://schema.org/SearchAction>;
+    <https://schema.org/name> "LLM Recommendations";
+    <https://schema.org/dateCreated> "2026-08-10T02:15:19.142Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/result> <#rec-song-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-0>, <#rec-song-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-1>, <#rec-song-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-2>, <#rec-song-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-3>, <#rec-song-interaction-268283e4-6a9c-4562-ad77-8d39193f18b2-assistant-4>.
+<#song-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "3814069442";
+    <https://schema.org/name> "Comme Caroline (feat. MC Solaar)";
+    <https://schema.org/byArtist> <#artist-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-0>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/21ddfa71eeb3cfb5891afafce67a439e/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-0>.
+<#artist-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Zaho".
+<#audio-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-0> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/8/2/5/0/8256392251ae89c01752cb08be8bfad4.mp3?hdnea=exp=1786328934~acl=/api/1/1/8/2/5/0/8256392251ae89c01752cb08be8bfad4.mp3*~data=user_id=0,application_id=42~hmac=94b092004176dad8dd32b665a177e6ff31940db11e7ae0d2874a74188d5cd2b2>.
+<#song-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "3678134142";
+    <https://schema.org/name> "Coco Chanel";
+    <https://schema.org/byArtist> <#artist-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-1>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/a4f446ab4ca831b1f809d3077f87179e/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-1>.
+<#artist-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Meryl".
+<#audio-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-1> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/0/c/0/0/0c01dd623066f4f898757182519ee2ab.mp3?hdnea=exp=1786328934~acl=/api/1/1/0/c/0/0/0c01dd623066f4f898757182519ee2ab.mp3*~data=user_id=0,application_id=42~hmac=45fc4214625ac59dd52751090fef9c1455bbf387424796fc5ffd94926940fee4>.
+<#song-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "3461991861";
+    <https://schema.org/name> "Congolaise";
+    <https://schema.org/byArtist> <#artist-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-2>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/6422e79182b4639fec30c6815e550b80/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-2>.
+<#artist-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Gradur".
+<#audio-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-2> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/4/d/e/0/4de6afde54948950211f63ff5ba40e5b.mp3?hdnea=exp=1786328934~acl=/api/1/1/4/d/e/0/4de6afde54948950211f63ff5ba40e5b.mp3*~data=user_id=0,application_id=42~hmac=19a12b0167cdb99164ea57727c0c66c6579d8a291da6189acdcc46c1c45b7ebc>.
+<#song-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "3837291721";
+    <https://schema.org/name> "Argent Sale - A COLORS SHOW";
+    <https://schema.org/byArtist> <#artist-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-3>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/b4e08d49fea51dfb8c89ab31f66d15cf/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-3>.
+<#artist-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "La Rvfleuze".
+<#audio-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-3> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/3/3/4/0/3342c03436e237c2695168d93e1fd38f.mp3?hdnea=exp=1786328934~acl=/api/1/1/3/3/4/0/3342c03436e237c2695168d93e1fd38f.mp3*~data=user_id=0,application_id=42~hmac=9e4feb24e054ebf8ad6c6c9e2bf7f39af29b24db151f3f612e954b8ad0ba3e28>.
+<#song-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "576851242";
+    <https://schema.org/name> "Copines";
+    <https://schema.org/byArtist> <#artist-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-4>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/41fc3e7a3430f3a5e1c1780b57c3147f/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-4>.
+<#artist-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Aya Nakamura".
+<#audio-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-4> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/e/8/9/0/e8944f971a66617123c96801a3adc7da.mp3?hdnea=exp=1786328934~acl=/api/1/1/e/8/9/0/e8944f971a66617123c96801a3adc7da.mp3*~data=user_id=0,application_id=42~hmac=73a2cdc2b2dce0507f286271ecf8c66e6dc36dcc9187402a1aeb2c1a7a2bc845>.
+<#interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user> <https://schema.org/role> "user_payload";
+    a <https://schema.org/UserInteraction>;
+    <https://schema.org/name> "User Preference Payload";
+    <https://schema.org/dateCreated> "2026-08-10T02:15:30.988Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/provider> "Gemini";
+    <https://schema.org/suggestedMinAge> "18";
+    <https://schema.org/keywords> "chill";
+    <https://schema.org/genre> "rnb", "metal", "country";
+    <https://schema.org/track> <#song-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-0>, <#song-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-1>, <#song-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-2>, <#song-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-3>, <#song-interaction-fe7a2f69-f763-4274-a686-224f9e9f261d-user-4>.
+<#rec-song-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Djadja";
+    <https://schema.org/byArtist> <#rec-artist-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-0>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/41fc3e7a3430f3a5e1c1780b57c3147f/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-0>.
+<#rec-artist-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Aya Nakamura".
+<#rec-audio-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-0> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/e/4/4/0/e44f868a58a2b500ecc8bfcb1af51810.mp3?hdnea=exp=1786329030~acl=/api/1/1/e/4/4/0/e44f868a58a2b500ecc8bfcb1af51810.mp3*~data=user_id=0,application_id=42~hmac=dc9d869709e331ae470677320e1ea0dbdc792374ce6be915ca45fbf85eaf29ae>.
+<#rec-song-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Bande organisée";
+    <https://schema.org/byArtist> <#rec-artist-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-1>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/d26b907ad10293b61b3d1b4b845e153b/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-1>.
+<#rec-artist-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Kofs".
+<#rec-audio-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-1> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/4/b/d/0/4bd97b1a2a6322a7ad927205555be490.mp3?hdnea=exp=1786329030~acl=/api/1/1/4/b/d/0/4bd97b1a2a6322a7ad927205555be490.mp3*~data=user_id=0,application_id=42~hmac=e52165cab9607af4cbb72db39cde1992e98df5ecb6fc4231312b76f54ab10d29>.
+<#rec-song-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Anissa";
+    <https://schema.org/byArtist> <#rec-artist-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-2>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/0a89327926f848b2249c72b234567a87/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-2>.
+<#rec-artist-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Wejdene".
+<#rec-audio-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-2> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/1/b/f/0/1bf8a88f9e6bb0445b6bbbc091ac4314.mp3?hdnea=exp=1786329030~acl=/api/1/1/1/b/f/0/1bf8a88f9e6bb0445b6bbbc091ac4314.mp3*~data=user_id=0,application_id=42~hmac=8d542580abc1add57379f2390309bf2d856d2c1b5cb1a36deeb383e407001836>.
+<#rec-song-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Jolie nana";
+    <https://schema.org/byArtist> <#rec-artist-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-3>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/d3641092e29650cfa26cc53814823a70/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-3>.
+<#rec-artist-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Aya Nakamura".
+<#rec-audio-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-3> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/e/b/a/0/eba655c59483d0251f2c4b48f0c6248b.mp3?hdnea=exp=1786329030~acl=/api/1/1/e/b/a/0/eba655c59483d0251f2c4b48f0c6248b.mp3*~data=user_id=0,application_id=42~hmac=a7d07a25e57f1bce8a138073bbeca37befa7ad7a2db6a17789c3ecc4ca336a6b>.
+<#rec-song-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Ne reviens pas";
+    <https://schema.org/byArtist> <#rec-artist-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-4>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/cb796947a7677ddab4e190084b822653/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-4>.
+<#rec-artist-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Gradur".
+<#rec-audio-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-4> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/f/2/f/0/f2f76a862077391eff1364215d6979a5.mp3?hdnea=exp=1786329030~acl=/api/1/1/f/2/f/0/f2f76a862077391eff1364215d6979a5.mp3*~data=user_id=0,application_id=42~hmac=7419dfe47ad443259c0a900b5a7cbf70b6a266446b3aabe21d8843000d6af021>.
+<#interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant> <https://schema.org/role> "assistant_response";
+    a <https://schema.org/SearchAction>;
+    <https://schema.org/name> "LLM Recommendations";
+    <https://schema.org/dateCreated> "2026-08-10T02:15:30.988Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/result> <#rec-song-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-0>, <#rec-song-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-1>, <#rec-song-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-2>, <#rec-song-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-3>, <#rec-song-interaction-1e5eeada-0f14-4524-96a6-529c1e9b975a-assistant-4>.
+<#song-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "3814069442";
+    <https://schema.org/name> "Comme Caroline (feat. MC Solaar)";
+    <https://schema.org/byArtist> <#artist-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-0>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/21ddfa71eeb3cfb5891afafce67a439e/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-0>.
+<#artist-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Zaho".
+<#audio-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-0> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/8/2/5/0/8256392251ae89c01752cb08be8bfad4.mp3?hdnea=exp=1786328934~acl=/api/1/1/8/2/5/0/8256392251ae89c01752cb08be8bfad4.mp3*~data=user_id=0,application_id=42~hmac=94b092004176dad8dd32b665a177e6ff31940db11e7ae0d2874a74188d5cd2b2>.
+<#song-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "576851242";
+    <https://schema.org/name> "Copines";
+    <https://schema.org/byArtist> <#artist-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-1>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/41fc3e7a3430f3a5e1c1780b57c3147f/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-1>.
+<#artist-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Aya Nakamura".
+<#audio-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-1> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/e/8/9/0/e8944f971a66617123c96801a3adc7da.mp3?hdnea=exp=1786328934~acl=/api/1/1/e/8/9/0/e8944f971a66617123c96801a3adc7da.mp3*~data=user_id=0,application_id=42~hmac=73a2cdc2b2dce0507f286271ecf8c66e6dc36dcc9187402a1aeb2c1a7a2bc845>.
+<#song-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "3157972";
+    <https://schema.org/name> "Viva La Vida";
+    <https://schema.org/byArtist> <#artist-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-2>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/eede3cd0dc3a5a87c7a5b1085b022e2d/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-2>.
+<#artist-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Coldplay".
+<#audio-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-2> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/e/2/5/0/e25fade11767fd539ad651da72103237.mp3?hdnea=exp=1786328934~acl=/api/1/1/e/2/5/0/e25fade11767fd539ad651da72103237.mp3*~data=user_id=0,application_id=42~hmac=95d32b09781cb62647490821e88475bfd65efa44916e0cf5941c7eb7983171bf>.
+<#song-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "3058139731";
+    <https://schema.org/name> "Collabo";
+    <https://schema.org/byArtist> <#artist-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-3>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/5f0aba69cde73b8c7a5ada7547ae5354/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-3>.
+<#artist-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Ninho".
+<#audio-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-3> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/9/f/0/0/9f0ea4a3f6806eb437d285400b225da2.mp3?hdnea=exp=1786328934~acl=/api/1/1/9/f/0/0/9f0ea4a3f6806eb437d285400b225da2.mp3*~data=user_id=0,application_id=42~hmac=25b9fa13a41cd3d177f82a6f38b9aaac1940eec8af0e0968ae845879a7f39e2e>.
+<#song-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "1584416372";
+    <https://schema.org/name> "Gangsta's Paradise";
+    <https://schema.org/byArtist> <#artist-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-4>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/a123b2c32996a8c8664a82cb4219ce0c/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-4>.
+<#artist-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Coolio".
+<#audio-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-4> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/3/f/1/0/3f19df3b484b0ab61f5e2de5820ceac2.mp3?hdnea=exp=1786328934~acl=/api/1/1/3/f/1/0/3f19df3b484b0ab61f5e2de5820ceac2.mp3*~data=user_id=0,application_id=42~hmac=d82e2fd43586f4f74ff0f054a7e36f2689d678ce678261cc1203836e35b60619>.
+<#interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user> <https://schema.org/role> "user_payload";
+    a <https://schema.org/UserInteraction>;
+    <https://schema.org/name> "User Preference Payload";
+    <https://schema.org/dateCreated> "2026-08-10T02:15:55.646Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/provider> "Gemini";
+    <https://schema.org/suggestedMinAge> "18";
+    <https://schema.org/keywords> "chill";
+    <https://schema.org/genre> "rnb", "country", "pop";
+    <https://schema.org/track> <#song-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-0>, <#song-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-1>, <#song-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-2>, <#song-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-3>, <#song-interaction-8f6c0b0d-2dfc-4bc5-bfdb-e199fa9919d3-user-4>.
+<#rec-song-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Dernière danse";
+    <https://schema.org/byArtist> <#rec-artist-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-0>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/6efb3506ac68e18e23d8f62d8b38ebfb/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-0>.
+<#rec-artist-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Indila".
+<#rec-audio-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-0> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/8/b/2/0/8b2c4fe71965ccda0968b12b053f15cb.mp3?hdnea=exp=1786329055~acl=/api/1/1/8/b/2/0/8b2c4fe71965ccda0968b12b053f15cb.mp3*~data=user_id=0,application_id=42~hmac=8b5ad1c6c5683a99a0c12a42a17c6acb09a6cbba728270be02f0e96053d4ff54>.
+<#rec-song-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Sunflower (Spider-Man: Into the Spider-Verse)";
+    <https://schema.org/byArtist> <#rec-artist-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-1>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/4642b8e3e0a89f92a6e2bfed13d8f31c/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-1>.
+<#rec-artist-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Post Malone".
+<#rec-audio-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-1> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/c/3/6/0/c369669ba9e7d8ef7ef51cbe23bd2413.mp3?hdnea=exp=1786329055~acl=/api/1/1/c/3/6/0/c369669ba9e7d8ef7ef51cbe23bd2413.mp3*~data=user_id=0,application_id=42~hmac=87ed44f027a624a2a89932f5c3171a7fc82e48b4df2bf4def3559bb558e3dc6c>.
+<#rec-song-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Save Your Tears";
+    <https://schema.org/byArtist> <#rec-artist-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-2>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/fd00ebd6d30d7253f813dba3bb1c66a9/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-2>.
+<#rec-artist-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "The Weeknd".
+<#rec-audio-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-2> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/6/0/3/0/6030d100df57535a6dd78ee08bf99261.mp3?hdnea=exp=1786329055~acl=/api/1/1/6/0/3/0/6030d100df57535a6dd78ee08bf99261.mp3*~data=user_id=0,application_id=42~hmac=59ca0f69606871fe897509b340fa1ab0e693e516ef9cb637fef450541c881aa2>.
+<#rec-song-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Someone You Loved";
+    <https://schema.org/byArtist> <#rec-artist-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-3>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/9a49265adb09ef5c1ae4920f8420e5ae/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-3>.
+<#rec-artist-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Lewis Capaldi".
+<#rec-audio-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-3> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/5/e/9/0/5e9d413644939d60388868b3befb242d.mp3?hdnea=exp=1786329055~acl=/api/1/1/5/e/9/0/5e9d413644939d60388868b3befb242d.mp3*~data=user_id=0,application_id=42~hmac=76aa43a2ec72096ac6db8181f7292563b5324238801ffa47f1086520fbc64385>.
+<#rec-song-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Leave The Door Open";
+    <https://schema.org/byArtist> <#rec-artist-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-4>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/faada8a8c545b2e3d454267b55c82e14/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-4>.
+<#rec-artist-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Bruno Mars".
+<#rec-audio-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-4> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/7/0/d/0/70dbc15b866285558145f4b2973edf25.mp3?hdnea=exp=1786329055~acl=/api/1/1/7/0/d/0/70dbc15b866285558145f4b2973edf25.mp3*~data=user_id=0,application_id=42~hmac=3763025b87e7a02633fd5a8dc1b1926c9b4d12c0b5fbe6d1992971482688f8fb>.
+<#interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant> <https://schema.org/role> "assistant_response";
+    a <https://schema.org/SearchAction>;
+    <https://schema.org/name> "LLM Recommendations";
+    <https://schema.org/dateCreated> "2026-08-10T02:15:55.646Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/result> <#rec-song-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-0>, <#rec-song-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-1>, <#rec-song-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-2>, <#rec-song-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-3>, <#rec-song-interaction-d76e1b58-d36e-4df0-9c54-31f14b5e4cce-assistant-4>.
+<#song-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "3862691491";
+    <https://schema.org/name> "Save Me Tonight";
+    <https://schema.org/byArtist> <#artist-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-0>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/8771220d57522e79a4655759f0b4fc0a/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-0>.
+<#artist-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Jennifer Lopez".
+<#audio-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-0> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/2/d/9/0/2d9e1643d0b5dfe140127909b9b3ee68.mp3?hdnea=exp=1786331507~acl=/api/1/1/2/d/9/0/2d9e1643d0b5dfe140127909b9b3ee68.mp3*~data=user_id=0,application_id=42~hmac=c57e4b87ee862cb1a2a6fdce77ca42b7f3b85227c8f9ffc7f8f34b943d2b8697>.
+<#song-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "3381260831";
+    <https://schema.org/name> "Pa Pa Paw";
+    <https://schema.org/byArtist> <#artist-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-1>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/9f12fddbff6ab3e03a16ffed6a204b38/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-1>.
+<#artist-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Damso".
+<#audio-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-1> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/6/1/5/0/6158bb32849a9aced228843a577040d4.mp3?hdnea=exp=1786331507~acl=/api/1/1/6/1/5/0/6158bb32849a9aced228843a577040d4.mp3*~data=user_id=0,application_id=42~hmac=2793f2076e2bc858e2e8258aa8545aca17eabb2b1c2f912aa37c2aa6867a7d6e>.
+<#song-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "908604632";
+    <https://schema.org/name> "Save Your Tears";
+    <https://schema.org/byArtist> <#artist-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-2>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/fd00ebd6d30d7253f813dba3bb1c66a9/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-2>.
+<#artist-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "The Weeknd".
+<#audio-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-2> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/6/0/3/0/6030d100df57535a6dd78ee08bf99261.mp3?hdnea=exp=1786331507~acl=/api/1/1/6/0/3/0/6030d100df57535a6dd78ee08bf99261.mp3*~data=user_id=0,application_id=42~hmac=a9fd19cbec2fd6ab92ae7da3e83b3292ec40f34ac8ededfcbb55fcba33d7dcf2>.
+<#song-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "3835649951";
+    <https://schema.org/name> "Saudade Estranha - Du Nada (Ao Vivo)";
+    <https://schema.org/byArtist> <#artist-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-3>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/c5a02e3fdf815c63a85379dd3748c028/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-3>.
+<#artist-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Murilo Huff".
+<#audio-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-3> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/9/5/9/0/959a390f52b2ceb9f78a3c4e64427dbf.mp3?hdnea=exp=1786331507~acl=/api/1/1/9/5/9/0/959a390f52b2ceb9f78a3c4e64427dbf.mp3*~data=user_id=0,application_id=42~hmac=8f6f3f6fcee155b29489eaad12426c81aa199b92a5a218e6c07c2864098be388>.
+<#song-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/identifier> "580936";
+    <https://schema.org/name> "Say My Name";
+    <https://schema.org/byArtist> <#artist-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-4>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/73da200f9335f752d2f7cb5ed8933cef/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#audio-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-4>.
+<#artist-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Destiny's Child".
+<#audio-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-4> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/b/c/0/0/bc0df105bf6fd096d9c77d22f76b7ced.mp3?hdnea=exp=1786331507~acl=/api/1/1/b/c/0/0/bc0df105bf6fd096d9c77d22f76b7ced.mp3*~data=user_id=0,application_id=42~hmac=8515342f4c8c6ad83fceb1d8ad55bcb449fcac3f76554288a556265f29f4f892>.
+<#interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user> <https://schema.org/role> "user_payload";
+    a <https://schema.org/UserInteraction>;
+    <https://schema.org/name> "User Preference Payload";
+    <https://schema.org/dateCreated> "2026-08-10T02:57:10.437Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/provider> "Claude";
+    <https://schema.org/suggestedMinAge> "18";
+    <https://schema.org/keywords> "chill";
+    <https://schema.org/genre> "rnb", "indie", "ballad";
+    <https://schema.org/track> <#song-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-0>, <#song-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-1>, <#song-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-2>, <#song-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-3>, <#song-interaction-68d88163-86d3-4ccc-89c2-470f1d0f69d9-user-4>.
+<#rec-song-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Adorn";
+    <https://schema.org/byArtist> <#rec-artist-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-0>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/8d9a360ab907b1920f4045fe49fae5da/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-0>.
+<#rec-artist-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Miguel".
+<#rec-audio-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-0> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/9/5/5/0/955b509bed164a84648e6a904d10b26f.mp3?hdnea=exp=1786331530~acl=/api/1/1/9/5/5/0/955b509bed164a84648e6a904d10b26f.mp3*~data=user_id=0,application_id=42~hmac=0f76bef04cb7f82c7c70372cc561dcd1c5a385a25e416769f7e143421adeeb09>.
+<#rec-song-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Location";
+    <https://schema.org/byArtist> <#rec-artist-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-1>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/7fa1597e86f5b4283ea316f2ddb54008/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-1>.
+<#rec-artist-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Khalid".
+<#rec-audio-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-1> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/3/a/1/0/3a18659849ca0b8215dfeedad466a682.mp3?hdnea=exp=1786331530~acl=/api/1/1/3/a/1/0/3a18659849ca0b8215dfeedad466a682.mp3*~data=user_id=0,application_id=42~hmac=87cff8614e7863ec5d91aeb854c86bf1584ab1b14392d076116c945f79521c22>.
+<#rec-song-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Best Part (feat. H.E.R.)";
+    <https://schema.org/byArtist> <#rec-artist-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-2>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/4dff56488d13d0b5e96d93d895c9624b/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-2>.
+<#rec-artist-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Daniel Caesar".
+<#rec-audio-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-2> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/a/1/2/0/a122fc6c633aa6a2547c318bc3dcd4ef.mp3?hdnea=exp=1786331530~acl=/api/1/1/a/1/2/0/a122fc6c633aa6a2547c318bc3dcd4ef.mp3*~data=user_id=0,application_id=42~hmac=dff9ef29460bb73907401255004a26d5a1005ed50940ce73c79e7a87f1459802>.
+<#rec-song-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Redbone";
+    <https://schema.org/byArtist> <#rec-artist-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-3>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/964acadabc2b6e286ce5e8e5add495a0/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-3>.
+<#rec-artist-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Childish Gambino".
+<#rec-audio-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-3> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/9/1/9/0/91921f2038858fa3f684647e89f702df.mp3?hdnea=exp=1786331530~acl=/api/1/1/9/1/9/0/91921f2038858fa3f684647e89f702df.mp3*~data=user_id=0,application_id=42~hmac=38855d58cfd7b53bc13a3cf37c6339a66e8cdda820f564fcc48990e793758846>.
+<#rec-song-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Come Through and Chill (feat. J. Cole & Salaam Remi)";
+    <https://schema.org/byArtist> <#rec-artist-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-4>;
+    <https://schema.org/image> <https://cdn-images.dzcdn.net/images/cover/d52e33d2ee597d672bc51874362bb553/250x250-000000-80-0-0.jpg>;
+    <https://schema.org/audio> <#rec-audio-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-4>.
+<#rec-artist-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Miguel".
+<#rec-audio-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-4> a <https://schema.org/AudioObject>;
+    <https://schema.org/contentUrl> <https://cdnt-preview.dzcdn.net/api/1/1/a/f/9/0/af98162ebf26a51cf7b7719e70dc0e1b.mp3?hdnea=exp=1786331530~acl=/api/1/1/a/f/9/0/af98162ebf26a51cf7b7719e70dc0e1b.mp3*~data=user_id=0,application_id=42~hmac=b60cb6407051eddc0075dda3e29d2e9342085448f30eb1b4edd0ee02b679b661>.
+<#interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant> <https://schema.org/role> "assistant_response";
+    a <https://schema.org/SearchAction>;
+    <https://schema.org/name> "LLM Recommendations";
+    <https://schema.org/dateCreated> "2026-08-10T02:57:10.437Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/result> <#rec-song-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-0>, <#rec-song-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-1>, <#rec-song-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-2>, <#rec-song-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-3>, <#rec-song-interaction-8220803e-e4a3-4c55-9e43-b69b4cc005de-assistant-4>.
+<#song-interaction-18d90628-7c1d-4b30-9d5b-10088a901546-user-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Franguinho Na Panela (Ao Vivo)";
+    <https://schema.org/byArtist> <#artist-interaction-18d90628-7c1d-4b30-9d5b-10088a901546-user-0>.
+<#artist-interaction-18d90628-7c1d-4b30-9d5b-10088a901546-user-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Cezar & Paulinho".
+<#song-interaction-18d90628-7c1d-4b30-9d5b-10088a901546-user-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Perfect";
+    <https://schema.org/byArtist> <#artist-interaction-18d90628-7c1d-4b30-9d5b-10088a901546-user-1>.
+<#artist-interaction-18d90628-7c1d-4b30-9d5b-10088a901546-user-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Ed Sheeran".
+<#song-interaction-18d90628-7c1d-4b30-9d5b-10088a901546-user-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Repeat It";
+    <https://schema.org/byArtist> <#artist-interaction-18d90628-7c1d-4b30-9d5b-10088a901546-user-2>.
+<#artist-interaction-18d90628-7c1d-4b30-9d5b-10088a901546-user-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Martin Garrix".
+<#song-interaction-18d90628-7c1d-4b30-9d5b-10088a901546-user-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Edge of Desire";
+    <https://schema.org/byArtist> <#artist-interaction-18d90628-7c1d-4b30-9d5b-10088a901546-user-3>.
+<#artist-interaction-18d90628-7c1d-4b30-9d5b-10088a901546-user-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Jonas Blue".
+<#song-interaction-18d90628-7c1d-4b30-9d5b-10088a901546-user-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Bam Bam (feat. Ed Sheeran)";
+    <https://schema.org/byArtist> <#artist-interaction-18d90628-7c1d-4b30-9d5b-10088a901546-user-4>.
+<#artist-interaction-18d90628-7c1d-4b30-9d5b-10088a901546-user-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Camila Cabello".
+<#interaction-18d90628-7c1d-4b30-9d5b-10088a901546-user> <https://schema.org/role> "user_payload";
+    a <https://schema.org/UserInteraction>;
+    <https://schema.org/dateCreated> "2026-08-10T03:17:12.871Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/provider> "GPT";
+    <https://schema.org/suggestedMinAge> "18";
+    <https://schema.org/keywords> "workout";
+    <https://schema.org/genre> "country", "edm", "rap";
+    <https://schema.org/track> <#song-interaction-18d90628-7c1d-4b30-9d5b-10088a901546-user-0>, <#song-interaction-18d90628-7c1d-4b30-9d5b-10088a901546-user-1>, <#song-interaction-18d90628-7c1d-4b30-9d5b-10088a901546-user-2>, <#song-interaction-18d90628-7c1d-4b30-9d5b-10088a901546-user-3>, <#song-interaction-18d90628-7c1d-4b30-9d5b-10088a901546-user-4>.
+<#rec-song-interaction-92fe01ab-330e-4337-868d-205400339744-assistant-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Summer Of Love";
+    <https://schema.org/byArtist> <#rec-artist-interaction-92fe01ab-330e-4337-868d-205400339744-assistant-0>.
+<#rec-artist-interaction-92fe01ab-330e-4337-868d-205400339744-assistant-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Shawn Mendes".
+<#rec-song-interaction-92fe01ab-330e-4337-868d-205400339744-assistant-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Go Out With You";
+    <https://schema.org/byArtist> <#rec-artist-interaction-92fe01ab-330e-4337-868d-205400339744-assistant-1>.
+<#rec-artist-interaction-92fe01ab-330e-4337-868d-205400339744-assistant-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Shane Lee".
+<#rec-song-interaction-92fe01ab-330e-4337-868d-205400339744-assistant-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Pure Water";
+    <https://schema.org/byArtist> <#rec-artist-interaction-92fe01ab-330e-4337-868d-205400339744-assistant-2>.
+<#rec-artist-interaction-92fe01ab-330e-4337-868d-205400339744-assistant-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Mustard".
+<#rec-song-interaction-92fe01ab-330e-4337-868d-205400339744-assistant-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Bad At Love (Dillon Francis Remix)";
+    <https://schema.org/byArtist> <#rec-artist-interaction-92fe01ab-330e-4337-868d-205400339744-assistant-3>.
+<#rec-artist-interaction-92fe01ab-330e-4337-868d-205400339744-assistant-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Halsey".
+<#rec-song-interaction-92fe01ab-330e-4337-868d-205400339744-assistant-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Astronaut In The Ocean";
+    <https://schema.org/byArtist> <#rec-artist-interaction-92fe01ab-330e-4337-868d-205400339744-assistant-4>.
+<#rec-artist-interaction-92fe01ab-330e-4337-868d-205400339744-assistant-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Masked Wolf".
+<#interaction-92fe01ab-330e-4337-868d-205400339744-assistant> <https://schema.org/role> "assistant_response";
+    a <https://schema.org/SearchAction>;
+    <https://schema.org/dateCreated> "2026-08-10T03:17:12.871Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/result> <#rec-song-interaction-92fe01ab-330e-4337-868d-205400339744-assistant-0>, <#rec-song-interaction-92fe01ab-330e-4337-868d-205400339744-assistant-1>, <#rec-song-interaction-92fe01ab-330e-4337-868d-205400339744-assistant-2>, <#rec-song-interaction-92fe01ab-330e-4337-868d-205400339744-assistant-3>, <#rec-song-interaction-92fe01ab-330e-4337-868d-205400339744-assistant-4>;
+    <https://schema.org/responseTime> 2766;
+    <https://schema.org/inputTokens> 1100;
+    <https://schema.org/outputTokens> 99.
+<#song-interaction-5e50b2be-d32d-4d45-a200-5b52cd4b1148-user-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Franguinho Na Panela (Ao Vivo)";
+    <https://schema.org/byArtist> <#artist-interaction-5e50b2be-d32d-4d45-a200-5b52cd4b1148-user-0>.
+<#artist-interaction-5e50b2be-d32d-4d45-a200-5b52cd4b1148-user-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Cezar & Paulinho".
+<#song-interaction-5e50b2be-d32d-4d45-a200-5b52cd4b1148-user-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Maladie";
+    <https://schema.org/byArtist> <#artist-interaction-5e50b2be-d32d-4d45-a200-5b52cd4b1148-user-1>.
+<#artist-interaction-5e50b2be-d32d-4d45-a200-5b52cd4b1148-user-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Mauvais Djo".
+<#song-interaction-5e50b2be-d32d-4d45-a200-5b52cd4b1148-user-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Pilé (Gospel)";
+    <https://schema.org/byArtist> <#artist-interaction-5e50b2be-d32d-4d45-a200-5b52cd4b1148-user-2>.
+<#artist-interaction-5e50b2be-d32d-4d45-a200-5b52cd4b1148-user-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Mauvais Djo".
+<#song-interaction-5e50b2be-d32d-4d45-a200-5b52cd4b1148-user-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Le Petit Pêcheur";
+    <https://schema.org/byArtist> <#artist-interaction-5e50b2be-d32d-4d45-a200-5b52cd4b1148-user-3>.
+<#artist-interaction-5e50b2be-d32d-4d45-a200-5b52cd4b1148-user-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Manon Lisa".
+<#song-interaction-5e50b2be-d32d-4d45-a200-5b52cd4b1148-user-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "VIVE LA MONNAIE";
+    <https://schema.org/byArtist> <#artist-interaction-5e50b2be-d32d-4d45-a200-5b52cd4b1148-user-4>.
+<#artist-interaction-5e50b2be-d32d-4d45-a200-5b52cd4b1148-user-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "GIMS".
+<#interaction-5e50b2be-d32d-4d45-a200-5b52cd4b1148-user> <https://schema.org/role> "user_payload";
+    a <https://schema.org/UserInteraction>;
+    <https://schema.org/dateCreated> "2026-08-10T03:18:02.292Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/provider> "Claude";
+    <https://schema.org/suggestedMinAge> "18";
+    <https://schema.org/keywords> "workout";
+    <https://schema.org/genre> "country", "edm", "rap";
+    <https://schema.org/track> <#song-interaction-5e50b2be-d32d-4d45-a200-5b52cd4b1148-user-0>, <#song-interaction-5e50b2be-d32d-4d45-a200-5b52cd4b1148-user-1>, <#song-interaction-5e50b2be-d32d-4d45-a200-5b52cd4b1148-user-2>, <#song-interaction-5e50b2be-d32d-4d45-a200-5b52cd4b1148-user-3>, <#song-interaction-5e50b2be-d32d-4d45-a200-5b52cd4b1148-user-4>.
+<#rec-song-interaction-48873d19-09a5-4dcd-a9d9-a9c13e7fa979-assistant-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Bella ciao (HUGEL Remix)";
+    <https://schema.org/byArtist> <#rec-artist-interaction-48873d19-09a5-4dcd-a9d9-a9c13e7fa979-assistant-0>.
+<#rec-artist-interaction-48873d19-09a5-4dcd-a9d9-a9c13e7fa979-assistant-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "El Profesor".
+<#rec-song-interaction-48873d19-09a5-4dcd-a9d9-a9c13e7fa979-assistant-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Pavilheiro";
+    <https://schema.org/byArtist> <#rec-artist-interaction-48873d19-09a5-4dcd-a9d9-a9c13e7fa979-assistant-1>.
+<#rec-artist-interaction-48873d19-09a5-4dcd-a9d9-a9c13e7fa979-assistant-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Simba".
+<#rec-song-interaction-48873d19-09a5-4dcd-a9d9-a9c13e7fa979-assistant-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Com Cabelo Loirinho";
+    <https://schema.org/byArtist> <#rec-artist-interaction-48873d19-09a5-4dcd-a9d9-a9c13e7fa979-assistant-2>.
+<#rec-artist-interaction-48873d19-09a5-4dcd-a9d9-a9c13e7fa979-assistant-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Kevin do recife".
+<#rec-song-interaction-48873d19-09a5-4dcd-a9d9-a9c13e7fa979-assistant-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Animals";
+    <https://schema.org/byArtist> <#rec-artist-interaction-48873d19-09a5-4dcd-a9d9-a9c13e7fa979-assistant-3>.
+<#rec-artist-interaction-48873d19-09a5-4dcd-a9d9-a9c13e7fa979-assistant-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Maroon 5".
+<#rec-song-interaction-48873d19-09a5-4dcd-a9d9-a9c13e7fa979-assistant-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "On The Floor";
+    <https://schema.org/byArtist> <#rec-artist-interaction-48873d19-09a5-4dcd-a9d9-a9c13e7fa979-assistant-4>.
+<#rec-artist-interaction-48873d19-09a5-4dcd-a9d9-a9c13e7fa979-assistant-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Jennifer Lopez".
+<#interaction-48873d19-09a5-4dcd-a9d9-a9c13e7fa979-assistant> <https://schema.org/role> "assistant_response";
+    a <https://schema.org/SearchAction>;
+    <https://schema.org/dateCreated> "2026-08-10T03:18:02.292Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/result> <#rec-song-interaction-48873d19-09a5-4dcd-a9d9-a9c13e7fa979-assistant-0>, <#rec-song-interaction-48873d19-09a5-4dcd-a9d9-a9c13e7fa979-assistant-1>, <#rec-song-interaction-48873d19-09a5-4dcd-a9d9-a9c13e7fa979-assistant-2>, <#rec-song-interaction-48873d19-09a5-4dcd-a9d9-a9c13e7fa979-assistant-3>, <#rec-song-interaction-48873d19-09a5-4dcd-a9d9-a9c13e7fa979-assistant-4>;
+    <https://schema.org/responseTime> 5524;
+    <https://schema.org/inputTokens> 1984;
+    <https://schema.org/outputTokens> 165.
+<#song-interaction-16da11f2-6a58-4aa4-a67a-18b5aab4f818-user-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Franguinho Na Panela (Ao Vivo)";
+    <https://schema.org/byArtist> <#artist-interaction-16da11f2-6a58-4aa4-a67a-18b5aab4f818-user-0>.
+<#artist-interaction-16da11f2-6a58-4aa4-a67a-18b5aab4f818-user-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Cezar & Paulinho".
+<#song-interaction-16da11f2-6a58-4aa4-a67a-18b5aab4f818-user-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Maladie";
+    <https://schema.org/byArtist> <#artist-interaction-16da11f2-6a58-4aa4-a67a-18b5aab4f818-user-1>.
+<#artist-interaction-16da11f2-6a58-4aa4-a67a-18b5aab4f818-user-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Mauvais Djo".
+<#song-interaction-16da11f2-6a58-4aa4-a67a-18b5aab4f818-user-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Pilé (Gospel)";
+    <https://schema.org/byArtist> <#artist-interaction-16da11f2-6a58-4aa4-a67a-18b5aab4f818-user-2>.
+<#artist-interaction-16da11f2-6a58-4aa4-a67a-18b5aab4f818-user-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Mauvais Djo".
+<#song-interaction-16da11f2-6a58-4aa4-a67a-18b5aab4f818-user-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Le Petit Pêcheur";
+    <https://schema.org/byArtist> <#artist-interaction-16da11f2-6a58-4aa4-a67a-18b5aab4f818-user-3>.
+<#artist-interaction-16da11f2-6a58-4aa4-a67a-18b5aab4f818-user-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Manon Lisa".
+<#song-interaction-16da11f2-6a58-4aa4-a67a-18b5aab4f818-user-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "VIVE LA MONNAIE";
+    <https://schema.org/byArtist> <#artist-interaction-16da11f2-6a58-4aa4-a67a-18b5aab4f818-user-4>.
+<#artist-interaction-16da11f2-6a58-4aa4-a67a-18b5aab4f818-user-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "GIMS".
+<#interaction-16da11f2-6a58-4aa4-a67a-18b5aab4f818-user> <https://schema.org/role> "user_payload";
+    a <https://schema.org/UserInteraction>;
+    <https://schema.org/dateCreated> "2026-08-10T03:40:32.258Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/provider> "GPT";
+    <https://schema.org/suggestedMinAge> "18";
+    <https://schema.org/keywords> "workout";
+    <https://schema.org/genre> "country", "edm", "rap";
+    <https://schema.org/track> <#song-interaction-16da11f2-6a58-4aa4-a67a-18b5aab4f818-user-0>, <#song-interaction-16da11f2-6a58-4aa4-a67a-18b5aab4f818-user-1>, <#song-interaction-16da11f2-6a58-4aa4-a67a-18b5aab4f818-user-2>, <#song-interaction-16da11f2-6a58-4aa4-a67a-18b5aab4f818-user-3>, <#song-interaction-16da11f2-6a58-4aa4-a67a-18b5aab4f818-user-4>.
+<#rec-song-interaction-1b1a9598-ccee-4844-a49f-d7ec7b1efde7-assistant-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Titanium (feat. Sia)";
+    <https://schema.org/byArtist> <#rec-artist-interaction-1b1a9598-ccee-4844-a49f-d7ec7b1efde7-assistant-0>.
+<#rec-artist-interaction-1b1a9598-ccee-4844-a49f-d7ec7b1efde7-assistant-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "David Guetta".
+<#rec-song-interaction-1b1a9598-ccee-4844-a49f-d7ec7b1efde7-assistant-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "rockstar";
+    <https://schema.org/byArtist> <#rec-artist-interaction-1b1a9598-ccee-4844-a49f-d7ec7b1efde7-assistant-1>.
+<#rec-artist-interaction-1b1a9598-ccee-4844-a49f-d7ec7b1efde7-assistant-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Post Malone".
+<#rec-song-interaction-1b1a9598-ccee-4844-a49f-d7ec7b1efde7-assistant-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "The Nights";
+    <https://schema.org/byArtist> <#rec-artist-interaction-1b1a9598-ccee-4844-a49f-d7ec7b1efde7-assistant-2>.
+<#rec-artist-interaction-1b1a9598-ccee-4844-a49f-d7ec7b1efde7-assistant-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Avicii".
+<#rec-song-interaction-1b1a9598-ccee-4844-a49f-d7ec7b1efde7-assistant-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "I Lived";
+    <https://schema.org/byArtist> <#rec-artist-interaction-1b1a9598-ccee-4844-a49f-d7ec7b1efde7-assistant-3>.
+<#rec-artist-interaction-1b1a9598-ccee-4844-a49f-d7ec7b1efde7-assistant-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "OneRepublic".
+<#rec-song-interaction-1b1a9598-ccee-4844-a49f-d7ec7b1efde7-assistant-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "POWER";
+    <https://schema.org/byArtist> <#rec-artist-interaction-1b1a9598-ccee-4844-a49f-d7ec7b1efde7-assistant-4>.
+<#rec-artist-interaction-1b1a9598-ccee-4844-a49f-d7ec7b1efde7-assistant-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Kanye West".
+<#interaction-1b1a9598-ccee-4844-a49f-d7ec7b1efde7-assistant> <https://schema.org/role> "assistant_response";
+    a <https://schema.org/SearchAction>;
+    <https://schema.org/dateCreated> "2026-08-10T03:40:32.258Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/result> <#rec-song-interaction-1b1a9598-ccee-4844-a49f-d7ec7b1efde7-assistant-0>, <#rec-song-interaction-1b1a9598-ccee-4844-a49f-d7ec7b1efde7-assistant-1>, <#rec-song-interaction-1b1a9598-ccee-4844-a49f-d7ec7b1efde7-assistant-2>, <#rec-song-interaction-1b1a9598-ccee-4844-a49f-d7ec7b1efde7-assistant-3>, <#rec-song-interaction-1b1a9598-ccee-4844-a49f-d7ec7b1efde7-assistant-4>;
+    <https://schema.org/responseTime> 0;
+    <https://schema.org/inputTokens> 0;
+    <https://schema.org/outputTokens> 0.
+<#song-interaction-84a02f91-340f-4f20-8881-0c8d8662fbc3-user-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Hail to the King";
+    <https://schema.org/byArtist> <#artist-interaction-84a02f91-340f-4f20-8881-0c8d8662fbc3-user-0>.
+<#artist-interaction-84a02f91-340f-4f20-8881-0c8d8662fbc3-user-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Avenged Sevenfold".
+<#song-interaction-84a02f91-340f-4f20-8881-0c8d8662fbc3-user-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Nightmare";
+    <https://schema.org/byArtist> <#artist-interaction-84a02f91-340f-4f20-8881-0c8d8662fbc3-user-1>.
+<#artist-interaction-84a02f91-340f-4f20-8881-0c8d8662fbc3-user-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Avenged Sevenfold".
+<#song-interaction-84a02f91-340f-4f20-8881-0c8d8662fbc3-user-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Afterlife";
+    <https://schema.org/byArtist> <#artist-interaction-84a02f91-340f-4f20-8881-0c8d8662fbc3-user-2>.
+<#artist-interaction-84a02f91-340f-4f20-8881-0c8d8662fbc3-user-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Avenged Sevenfold".
+<#song-interaction-84a02f91-340f-4f20-8881-0c8d8662fbc3-user-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "A Little Piece of Heaven";
+    <https://schema.org/byArtist> <#artist-interaction-84a02f91-340f-4f20-8881-0c8d8662fbc3-user-3>.
+<#artist-interaction-84a02f91-340f-4f20-8881-0c8d8662fbc3-user-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Avenged Sevenfold".
+<#song-interaction-84a02f91-340f-4f20-8881-0c8d8662fbc3-user-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "So Far Away";
+    <https://schema.org/byArtist> <#artist-interaction-84a02f91-340f-4f20-8881-0c8d8662fbc3-user-4>.
+<#artist-interaction-84a02f91-340f-4f20-8881-0c8d8662fbc3-user-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Avenged Sevenfold".
+<#interaction-84a02f91-340f-4f20-8881-0c8d8662fbc3-user> <https://schema.org/role> "user_payload";
+    a <https://schema.org/UserInteraction>;
+    <https://schema.org/dateCreated> "2026-08-11T03:39:40.310Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/provider> "GPT";
+    <https://schema.org/suggestedMinAge> "18";
+    <https://schema.org/keywords> "chill";
+    <https://schema.org/genre> "metal", "country", "rock";
+    <https://schema.org/track> <#song-interaction-84a02f91-340f-4f20-8881-0c8d8662fbc3-user-0>, <#song-interaction-84a02f91-340f-4f20-8881-0c8d8662fbc3-user-1>, <#song-interaction-84a02f91-340f-4f20-8881-0c8d8662fbc3-user-2>, <#song-interaction-84a02f91-340f-4f20-8881-0c8d8662fbc3-user-3>, <#song-interaction-84a02f91-340f-4f20-8881-0c8d8662fbc3-user-4>.
+<#rec-song-interaction-23cdaf4e-567a-4670-ba26-e8b477409925-assistant-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Cover Me Up";
+    <https://schema.org/byArtist> <#rec-artist-interaction-23cdaf4e-567a-4670-ba26-e8b477409925-assistant-0>.
+<#rec-artist-interaction-23cdaf4e-567a-4670-ba26-e8b477409925-assistant-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Morgan Wallen".
+<#rec-song-interaction-23cdaf4e-567a-4670-ba26-e8b477409925-assistant-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "snow country";
+    <https://schema.org/byArtist> <#rec-artist-interaction-23cdaf4e-567a-4670-ba26-e8b477409925-assistant-1>.
+<#rec-artist-interaction-23cdaf4e-567a-4670-ba26-e8b477409925-assistant-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "paniyolo".
+<#rec-song-interaction-23cdaf4e-567a-4670-ba26-e8b477409925-assistant-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Another Round - Live at the Pantages Theatre, Los Angeles, CA - August 2006";
+    <https://schema.org/byArtist> <#rec-artist-interaction-23cdaf4e-567a-4670-ba26-e8b477409925-assistant-2>.
+<#rec-artist-interaction-23cdaf4e-567a-4670-ba26-e8b477409925-assistant-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Foo Fighters".
+<#rec-song-interaction-23cdaf4e-567a-4670-ba26-e8b477409925-assistant-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Lost";
+    <https://schema.org/byArtist> <#rec-artist-interaction-23cdaf4e-567a-4670-ba26-e8b477409925-assistant-3>.
+<#rec-artist-interaction-23cdaf4e-567a-4670-ba26-e8b477409925-assistant-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Avenged Sevenfold".
+<#rec-song-interaction-23cdaf4e-567a-4670-ba26-e8b477409925-assistant-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "When The Sun Goes Down";
+    <https://schema.org/byArtist> <#rec-artist-interaction-23cdaf4e-567a-4670-ba26-e8b477409925-assistant-4>.
+<#rec-artist-interaction-23cdaf4e-567a-4670-ba26-e8b477409925-assistant-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Arctic Monkeys".
+<#interaction-23cdaf4e-567a-4670-ba26-e8b477409925-assistant> <https://schema.org/role> "assistant_response";
+    a <https://schema.org/SearchAction>;
+    <https://schema.org/dateCreated> "2026-08-11T03:39:40.310Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/result> <#rec-song-interaction-23cdaf4e-567a-4670-ba26-e8b477409925-assistant-0>, <#rec-song-interaction-23cdaf4e-567a-4670-ba26-e8b477409925-assistant-1>, <#rec-song-interaction-23cdaf4e-567a-4670-ba26-e8b477409925-assistant-2>, <#rec-song-interaction-23cdaf4e-567a-4670-ba26-e8b477409925-assistant-3>, <#rec-song-interaction-23cdaf4e-567a-4670-ba26-e8b477409925-assistant-4>;
+    <https://schema.org/responseTime> 9589;
+    <https://schema.org/inputTokens> 3049;
+    <https://schema.org/outputTokens> 249.
+<#song-interaction-195e3105-d463-4102-9881-49b293b0dda3-user-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "RAP";
+    <https://schema.org/byArtist> <#artist-interaction-195e3105-d463-4102-9881-49b293b0dda3-user-0>.
+<#artist-interaction-195e3105-d463-4102-9881-49b293b0dda3-user-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "LACAZETTE".
+<#song-interaction-195e3105-d463-4102-9881-49b293b0dda3-user-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Caravane";
+    <https://schema.org/byArtist> <#artist-interaction-195e3105-d463-4102-9881-49b293b0dda3-user-1>.
+<#artist-interaction-195e3105-d463-4102-9881-49b293b0dda3-user-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Raphael".
+<#song-interaction-195e3105-d463-4102-9881-49b293b0dda3-user-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Raparigas";
+    <https://schema.org/byArtist> <#artist-interaction-195e3105-d463-4102-9881-49b293b0dda3-user-2>.
+<#artist-interaction-195e3105-d463-4102-9881-49b293b0dda3-user-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Filho do Piseiro".
+<#song-interaction-195e3105-d463-4102-9881-49b293b0dda3-user-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "R.A.P.";
+    <https://schema.org/byArtist> <#artist-interaction-195e3105-d463-4102-9881-49b293b0dda3-user-3>.
+<#artist-interaction-195e3105-d463-4102-9881-49b293b0dda3-user-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Booba".
+<#song-interaction-195e3105-d463-4102-9881-49b293b0dda3-user-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "R.A.P. (Rhythm and Poetry)";
+    <https://schema.org/byArtist> <#artist-interaction-195e3105-d463-4102-9881-49b293b0dda3-user-4>.
+<#artist-interaction-195e3105-d463-4102-9881-49b293b0dda3-user-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Josman".
+<#interaction-195e3105-d463-4102-9881-49b293b0dda3-user> <https://schema.org/role> "user_payload";
+    a <https://schema.org/UserInteraction>;
+    <https://schema.org/dateCreated> "2026-08-11T03:40:30.823Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/provider> "GPT";
+    <https://schema.org/suggestedMinAge> "18";
+    <https://schema.org/keywords> "workout";
+    <https://schema.org/genre> "k-pop", "pop", "rap";
+    <https://schema.org/track> <#song-interaction-195e3105-d463-4102-9881-49b293b0dda3-user-0>, <#song-interaction-195e3105-d463-4102-9881-49b293b0dda3-user-1>, <#song-interaction-195e3105-d463-4102-9881-49b293b0dda3-user-2>, <#song-interaction-195e3105-d463-4102-9881-49b293b0dda3-user-3>, <#song-interaction-195e3105-d463-4102-9881-49b293b0dda3-user-4>.
+<#rec-song-interaction-c85768c5-a0bb-4034-b5e8-cfae934c0add-assistant-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Oh Mama";
+    <https://schema.org/byArtist> <#rec-artist-interaction-c85768c5-a0bb-4034-b5e8-cfae934c0add-assistant-0>.
+<#rec-artist-interaction-c85768c5-a0bb-4034-b5e8-cfae934c0add-assistant-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Zaho".
+<#rec-song-interaction-c85768c5-a0bb-4034-b5e8-cfae934c0add-assistant-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Ride the Lightning (Live)";
+    <https://schema.org/byArtist> <#rec-artist-interaction-c85768c5-a0bb-4034-b5e8-cfae934c0add-assistant-1>.
+<#rec-artist-interaction-c85768c5-a0bb-4034-b5e8-cfae934c0add-assistant-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Metallica".
+<#rec-song-interaction-c85768c5-a0bb-4034-b5e8-cfae934c0add-assistant-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Hardwired - Live at U.S. Bank Stadium, Minneapolis, MN - August 20th, 2016";
+    <https://schema.org/byArtist> <#rec-artist-interaction-c85768c5-a0bb-4034-b5e8-cfae934c0add-assistant-2>.
+<#rec-artist-interaction-c85768c5-a0bb-4034-b5e8-cfae934c0add-assistant-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Metallica".
+<#rec-song-interaction-c85768c5-a0bb-4034-b5e8-cfae934c0add-assistant-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Rap & Roll";
+    <https://schema.org/byArtist> <#rec-artist-interaction-c85768c5-a0bb-4034-b5e8-cfae934c0add-assistant-3>.
+<#rec-artist-interaction-c85768c5-a0bb-4034-b5e8-cfae934c0add-assistant-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Porta".
+<#rec-song-interaction-c85768c5-a0bb-4034-b5e8-cfae934c0add-assistant-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Hiphop N RnB";
+    <https://schema.org/byArtist> <#rec-artist-interaction-c85768c5-a0bb-4034-b5e8-cfae934c0add-assistant-4>.
+<#rec-artist-interaction-c85768c5-a0bb-4034-b5e8-cfae934c0add-assistant-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Yasin".
+<#interaction-c85768c5-a0bb-4034-b5e8-cfae934c0add-assistant> <https://schema.org/role> "assistant_response";
+    a <https://schema.org/SearchAction>;
+    <https://schema.org/dateCreated> "2026-08-11T03:40:30.823Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/result> <#rec-song-interaction-c85768c5-a0bb-4034-b5e8-cfae934c0add-assistant-0>, <#rec-song-interaction-c85768c5-a0bb-4034-b5e8-cfae934c0add-assistant-1>, <#rec-song-interaction-c85768c5-a0bb-4034-b5e8-cfae934c0add-assistant-2>, <#rec-song-interaction-c85768c5-a0bb-4034-b5e8-cfae934c0add-assistant-3>, <#rec-song-interaction-c85768c5-a0bb-4034-b5e8-cfae934c0add-assistant-4>;
+    <https://schema.org/responseTime> 9078;
+    <https://schema.org/inputTokens> 3129;
+    <https://schema.org/outputTokens> 249.
+<#song-interaction-538a02d2-619e-45e7-a5da-7d6d64d99300-user-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Dai Dai";
+    <https://schema.org/byArtist> <#artist-interaction-538a02d2-619e-45e7-a5da-7d6d64d99300-user-0>.
+<#artist-interaction-538a02d2-619e-45e7-a5da-7d6d64d99300-user-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Shakira".
+<#song-interaction-538a02d2-619e-45e7-a5da-7d6d64d99300-user-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Shatta Confessions";
+    <https://schema.org/byArtist> <#artist-interaction-538a02d2-619e-45e7-a5da-7d6d64d99300-user-1>.
+<#artist-interaction-538a02d2-619e-45e7-a5da-7d6d64d99300-user-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Meryl".
+<#song-interaction-538a02d2-619e-45e7-a5da-7d6d64d99300-user-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "ALGO TÚ";
+    <https://schema.org/byArtist> <#artist-interaction-538a02d2-619e-45e7-a5da-7d6d64d99300-user-2>.
+<#artist-interaction-538a02d2-619e-45e7-a5da-7d6d64d99300-user-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Shakira".
+<#song-interaction-538a02d2-619e-45e7-a5da-7d6d64d99300-user-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Il avait les mots";
+    <https://schema.org/byArtist> <#artist-interaction-538a02d2-619e-45e7-a5da-7d6d64d99300-user-3>.
+<#artist-interaction-538a02d2-619e-45e7-a5da-7d6d64d99300-user-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Sheryfa Luna".
+<#song-interaction-538a02d2-619e-45e7-a5da-7d6d64d99300-user-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Shake It Off";
+    <https://schema.org/byArtist> <#artist-interaction-538a02d2-619e-45e7-a5da-7d6d64d99300-user-4>.
+<#artist-interaction-538a02d2-619e-45e7-a5da-7d6d64d99300-user-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Taylor Swift".
+<#interaction-538a02d2-619e-45e7-a5da-7d6d64d99300-user> <https://schema.org/role> "user_payload";
+    a <https://schema.org/UserInteraction>;
+    <https://schema.org/dateCreated> "2026-08-11T03:42:50.543Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/provider> "GPT";
+    <https://schema.org/suggestedMinAge> "18";
+    <https://schema.org/keywords> "fire";
+    <https://schema.org/genre> "k-pop", "pop", "rap";
+    <https://schema.org/track> <#song-interaction-538a02d2-619e-45e7-a5da-7d6d64d99300-user-0>, <#song-interaction-538a02d2-619e-45e7-a5da-7d6d64d99300-user-1>, <#song-interaction-538a02d2-619e-45e7-a5da-7d6d64d99300-user-2>, <#song-interaction-538a02d2-619e-45e7-a5da-7d6d64d99300-user-3>, <#song-interaction-538a02d2-619e-45e7-a5da-7d6d64d99300-user-4>.
+<#rec-song-interaction-8cb4ed94-1dc6-4879-8ac6-dc25be692b35-assistant-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Beats Like This - DJ Rap DnB Remix";
+    <https://schema.org/byArtist> <#rec-artist-interaction-8cb4ed94-1dc6-4879-8ac6-dc25be692b35-assistant-0>.
+<#rec-artist-interaction-8cb4ed94-1dc6-4879-8ac6-dc25be692b35-assistant-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "DJ Rap".
+<#rec-song-interaction-8cb4ed94-1dc6-4879-8ac6-dc25be692b35-assistant-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Rap and Country";
+    <https://schema.org/byArtist> <#rec-artist-interaction-8cb4ed94-1dc6-4879-8ac6-dc25be692b35-assistant-1>.
+<#rec-artist-interaction-8cb4ed94-1dc6-4879-8ac6-dc25be692b35-assistant-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Darren Carter".
+<#rec-song-interaction-8cb4ed94-1dc6-4879-8ac6-dc25be692b35-assistant-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Halo On Fire";
+    <https://schema.org/byArtist> <#rec-artist-interaction-8cb4ed94-1dc6-4879-8ac6-dc25be692b35-assistant-2>.
+<#rec-artist-interaction-8cb4ed94-1dc6-4879-8ac6-dc25be692b35-assistant-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Metallica".
+<#rec-song-interaction-8cb4ed94-1dc6-4879-8ac6-dc25be692b35-assistant-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "SUPERPOSITION";
+    <https://schema.org/byArtist> <#rec-artist-interaction-8cb4ed94-1dc6-4879-8ac6-dc25be692b35-assistant-3>.
+<#rec-artist-interaction-8cb4ed94-1dc6-4879-8ac6-dc25be692b35-assistant-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Daniel Caesar".
+<#rec-song-interaction-8cb4ed94-1dc6-4879-8ac6-dc25be692b35-assistant-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Intelligent Woman - DJ Rap Remix";
+    <https://schema.org/byArtist> <#rec-artist-interaction-8cb4ed94-1dc6-4879-8ac6-dc25be692b35-assistant-4>.
+<#rec-artist-interaction-8cb4ed94-1dc6-4879-8ac6-dc25be692b35-assistant-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "DJ Rap".
+<#interaction-8cb4ed94-1dc6-4879-8ac6-dc25be692b35-assistant> <https://schema.org/role> "assistant_response";
+    a <https://schema.org/SearchAction>;
+    <https://schema.org/dateCreated> "2026-08-11T03:42:50.543Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/result> <#rec-song-interaction-8cb4ed94-1dc6-4879-8ac6-dc25be692b35-assistant-0>, <#rec-song-interaction-8cb4ed94-1dc6-4879-8ac6-dc25be692b35-assistant-1>, <#rec-song-interaction-8cb4ed94-1dc6-4879-8ac6-dc25be692b35-assistant-2>, <#rec-song-interaction-8cb4ed94-1dc6-4879-8ac6-dc25be692b35-assistant-3>, <#rec-song-interaction-8cb4ed94-1dc6-4879-8ac6-dc25be692b35-assistant-4>;
+    <https://schema.org/responseTime> 9975;
+    <https://schema.org/inputTokens> 3318;
+    <https://schema.org/outputTokens> 243.
+<#song-interaction-8e9f7f39-c9eb-4e35-bf43-726b3edf495a-user-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Metálica";
+    <https://schema.org/byArtist> <#artist-interaction-8e9f7f39-c9eb-4e35-bf43-726b3edf495a-user-0>.
+<#artist-interaction-8e9f7f39-c9eb-4e35-bf43-726b3edf495a-user-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Tranzas".
+<#song-interaction-8e9f7f39-c9eb-4e35-bf43-726b3edf495a-user-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Nothing Else Matters (Remastered 2021)";
+    <https://schema.org/byArtist> <#artist-interaction-8e9f7f39-c9eb-4e35-bf43-726b3edf495a-user-1>.
+<#artist-interaction-8e9f7f39-c9eb-4e35-bf43-726b3edf495a-user-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Metallica".
+<#song-interaction-8e9f7f39-c9eb-4e35-bf43-726b3edf495a-user-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Enter Sandman (Remastered 2021)";
+    <https://schema.org/byArtist> <#artist-interaction-8e9f7f39-c9eb-4e35-bf43-726b3edf495a-user-2>.
+<#artist-interaction-8e9f7f39-c9eb-4e35-bf43-726b3edf495a-user-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Metallica".
+<#song-interaction-8e9f7f39-c9eb-4e35-bf43-726b3edf495a-user-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "METALLICA";
+    <https://schema.org/byArtist> <#artist-interaction-8e9f7f39-c9eb-4e35-bf43-726b3edf495a-user-3>.
+<#artist-interaction-8e9f7f39-c9eb-4e35-bf43-726b3edf495a-user-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "SDM".
+<#song-interaction-8e9f7f39-c9eb-4e35-bf43-726b3edf495a-user-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Metálica (Acústico)";
+    <https://schema.org/byArtist> <#artist-interaction-8e9f7f39-c9eb-4e35-bf43-726b3edf495a-user-4>.
+<#artist-interaction-8e9f7f39-c9eb-4e35-bf43-726b3edf495a-user-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Cidinei Barbosa".
+<#interaction-8e9f7f39-c9eb-4e35-bf43-726b3edf495a-user> <https://schema.org/role> "user_payload";
+    a <https://schema.org/UserInteraction>;
+    <https://schema.org/dateCreated> "2026-08-11T03:44:50.421Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/provider> "Claude";
+    <https://schema.org/suggestedMinAge> "18";
+    <https://schema.org/keywords> "fire";
+    <https://schema.org/genre> "rock";
+    <https://schema.org/track> <#song-interaction-8e9f7f39-c9eb-4e35-bf43-726b3edf495a-user-0>, <#song-interaction-8e9f7f39-c9eb-4e35-bf43-726b3edf495a-user-1>, <#song-interaction-8e9f7f39-c9eb-4e35-bf43-726b3edf495a-user-2>, <#song-interaction-8e9f7f39-c9eb-4e35-bf43-726b3edf495a-user-3>, <#song-interaction-8e9f7f39-c9eb-4e35-bf43-726b3edf495a-user-4>.
+<#rec-song-interaction-ebcd026a-9c04-4265-b260-81d032987669-assistant-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Screaming Suicide";
+    <https://schema.org/byArtist> <#rec-artist-interaction-ebcd026a-9c04-4265-b260-81d032987669-assistant-0>.
+<#rec-artist-interaction-ebcd026a-9c04-4265-b260-81d032987669-assistant-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Metallica".
+<#rec-song-interaction-ebcd026a-9c04-4265-b260-81d032987669-assistant-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Here Comes Revenge";
+    <https://schema.org/byArtist> <#rec-artist-interaction-ebcd026a-9c04-4265-b260-81d032987669-assistant-1>.
+<#rec-artist-interaction-ebcd026a-9c04-4265-b260-81d032987669-assistant-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Metallica".
+<#rec-song-interaction-ebcd026a-9c04-4265-b260-81d032987669-assistant-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "This Means War";
+    <https://schema.org/byArtist> <#rec-artist-interaction-ebcd026a-9c04-4265-b260-81d032987669-assistant-2>.
+<#rec-artist-interaction-ebcd026a-9c04-4265-b260-81d032987669-assistant-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Avenged Sevenfold".
+<#rec-song-interaction-ebcd026a-9c04-4265-b260-81d032987669-assistant-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Danger Line";
+    <https://schema.org/byArtist> <#rec-artist-interaction-ebcd026a-9c04-4265-b260-81d032987669-assistant-3>.
+<#rec-artist-interaction-ebcd026a-9c04-4265-b260-81d032987669-assistant-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Avenged Sevenfold".
+<#rec-song-interaction-ebcd026a-9c04-4265-b260-81d032987669-assistant-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Ride The Lightning - Live";
+    <https://schema.org/byArtist> <#rec-artist-interaction-ebcd026a-9c04-4265-b260-81d032987669-assistant-4>.
+<#rec-artist-interaction-ebcd026a-9c04-4265-b260-81d032987669-assistant-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Metallica".
+<#interaction-ebcd026a-9c04-4265-b260-81d032987669-assistant> <https://schema.org/role> "assistant_response";
+    a <https://schema.org/SearchAction>;
+    <https://schema.org/dateCreated> "2026-08-11T03:44:50.421Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/result> <#rec-song-interaction-ebcd026a-9c04-4265-b260-81d032987669-assistant-0>, <#rec-song-interaction-ebcd026a-9c04-4265-b260-81d032987669-assistant-1>, <#rec-song-interaction-ebcd026a-9c04-4265-b260-81d032987669-assistant-2>, <#rec-song-interaction-ebcd026a-9c04-4265-b260-81d032987669-assistant-3>, <#rec-song-interaction-ebcd026a-9c04-4265-b260-81d032987669-assistant-4>;
+    <https://schema.org/responseTime> 9366;
+    <https://schema.org/inputTokens> 5341;
+    <https://schema.org/outputTokens> 395.
+<#song-interaction-a2ce4331-b999-4846-98c1-91203a25347f-user-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Duality";
+    <https://schema.org/byArtist> <#artist-interaction-a2ce4331-b999-4846-98c1-91203a25347f-user-0>.
+<#artist-interaction-a2ce4331-b999-4846-98c1-91203a25347f-user-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Slipknot".
+<#song-interaction-a2ce4331-b999-4846-98c1-91203a25347f-user-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Psychosocial";
+    <https://schema.org/byArtist> <#artist-interaction-a2ce4331-b999-4846-98c1-91203a25347f-user-1>.
+<#artist-interaction-a2ce4331-b999-4846-98c1-91203a25347f-user-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Slipknot".
+<#song-interaction-a2ce4331-b999-4846-98c1-91203a25347f-user-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Wait and Bleed";
+    <https://schema.org/byArtist> <#artist-interaction-a2ce4331-b999-4846-98c1-91203a25347f-user-2>.
+<#artist-interaction-a2ce4331-b999-4846-98c1-91203a25347f-user-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Slipknot".
+<#song-interaction-a2ce4331-b999-4846-98c1-91203a25347f-user-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Toxicity";
+    <https://schema.org/byArtist> <#artist-interaction-a2ce4331-b999-4846-98c1-91203a25347f-user-3>.
+<#artist-interaction-a2ce4331-b999-4846-98c1-91203a25347f-user-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "System of A Down".
+<#song-interaction-a2ce4331-b999-4846-98c1-91203a25347f-user-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Lonely Day";
+    <https://schema.org/byArtist> <#artist-interaction-a2ce4331-b999-4846-98c1-91203a25347f-user-4>.
+<#artist-interaction-a2ce4331-b999-4846-98c1-91203a25347f-user-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "System of A Down".
+<#interaction-a2ce4331-b999-4846-98c1-91203a25347f-user> <https://schema.org/role> "user_payload";
+    a <https://schema.org/UserInteraction>;
+    <https://schema.org/dateCreated> "2026-08-11T03:47:32.597Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/provider> "Claude";
+    <https://schema.org/suggestedMinAge> "18";
+    <https://schema.org/keywords> "chill";
+    <https://schema.org/genre> "metal", "edm", "rock";
+    <https://schema.org/track> <#song-interaction-a2ce4331-b999-4846-98c1-91203a25347f-user-0>, <#song-interaction-a2ce4331-b999-4846-98c1-91203a25347f-user-1>, <#song-interaction-a2ce4331-b999-4846-98c1-91203a25347f-user-2>, <#song-interaction-a2ce4331-b999-4846-98c1-91203a25347f-user-3>, <#song-interaction-a2ce4331-b999-4846-98c1-91203a25347f-user-4>.
+<#rec-song-interaction-e7e4dadf-4996-438b-8db9-86401222bd24-assistant-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Streamline";
+    <https://schema.org/byArtist> <#rec-artist-interaction-e7e4dadf-4996-438b-8db9-86401222bd24-assistant-0>.
+<#rec-artist-interaction-e7e4dadf-4996-438b-8db9-86401222bd24-assistant-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "System Of A Down".
+<#rec-song-interaction-e7e4dadf-4996-438b-8db9-86401222bd24-assistant-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "ATWA";
+    <https://schema.org/byArtist> <#rec-artist-interaction-e7e4dadf-4996-438b-8db9-86401222bd24-assistant-1>.
+<#rec-artist-interaction-e7e4dadf-4996-438b-8db9-86401222bd24-assistant-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "System Of A Down".
+<#rec-song-interaction-e7e4dadf-4996-438b-8db9-86401222bd24-assistant-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Retrovertigo";
+    <https://schema.org/byArtist> <#rec-artist-interaction-e7e4dadf-4996-438b-8db9-86401222bd24-assistant-2>.
+<#rec-artist-interaction-e7e4dadf-4996-438b-8db9-86401222bd24-assistant-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Avenged Sevenfold".
+<#rec-song-interaction-e7e4dadf-4996-438b-8db9-86401222bd24-assistant-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Hell And Back";
+    <https://schema.org/byArtist> <#rec-artist-interaction-e7e4dadf-4996-438b-8db9-86401222bd24-assistant-3>.
+<#rec-artist-interaction-e7e4dadf-4996-438b-8db9-86401222bd24-assistant-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Metallica".
+<#rec-song-interaction-e7e4dadf-4996-438b-8db9-86401222bd24-assistant-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Find Me";
+    <https://schema.org/byArtist> <#rec-artist-interaction-e7e4dadf-4996-438b-8db9-86401222bd24-assistant-4>.
+<#rec-artist-interaction-e7e4dadf-4996-438b-8db9-86401222bd24-assistant-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Marshmello".
+<#interaction-e7e4dadf-4996-438b-8db9-86401222bd24-assistant> <https://schema.org/role> "assistant_response";
+    a <https://schema.org/SearchAction>;
+    <https://schema.org/dateCreated> "2026-08-11T03:47:32.597Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/result> <#rec-song-interaction-e7e4dadf-4996-438b-8db9-86401222bd24-assistant-0>, <#rec-song-interaction-e7e4dadf-4996-438b-8db9-86401222bd24-assistant-1>, <#rec-song-interaction-e7e4dadf-4996-438b-8db9-86401222bd24-assistant-2>, <#rec-song-interaction-e7e4dadf-4996-438b-8db9-86401222bd24-assistant-3>, <#rec-song-interaction-e7e4dadf-4996-438b-8db9-86401222bd24-assistant-4>;
+    <https://schema.org/responseTime> 18113;
+    <https://schema.org/inputTokens> 5777;
+    <https://schema.org/outputTokens> 723.
+<#song-interaction-abba31cb-08c2-4392-8a2a-51bac5548528-user-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Rumah Ke Rumah";
+    <https://schema.org/byArtist> <#artist-interaction-abba31cb-08c2-4392-8a2a-51bac5548528-user-0>.
+<#artist-interaction-abba31cb-08c2-4392-8a2a-51bac5548528-user-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Hindia".
+<#song-interaction-abba31cb-08c2-4392-8a2a-51bac5548528-user-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Could You Be Loved";
+    <https://schema.org/byArtist> <#artist-interaction-abba31cb-08c2-4392-8a2a-51bac5548528-user-1>.
+<#artist-interaction-abba31cb-08c2-4392-8a2a-51bac5548528-user-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Bob Marley & The Wailers".
+<#song-interaction-abba31cb-08c2-4392-8a2a-51bac5548528-user-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Is This Love";
+    <https://schema.org/byArtist> <#artist-interaction-abba31cb-08c2-4392-8a2a-51bac5548528-user-2>.
+<#artist-interaction-abba31cb-08c2-4392-8a2a-51bac5548528-user-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Bob Marley & The Wailers".
+<#song-interaction-abba31cb-08c2-4392-8a2a-51bac5548528-user-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "disarankan di bandung (Explicit)";
+    <https://schema.org/byArtist> <#artist-interaction-abba31cb-08c2-4392-8a2a-51bac5548528-user-3>.
+<#artist-interaction-abba31cb-08c2-4392-8a2a-51bac5548528-user-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Dongker".
+<#song-interaction-abba31cb-08c2-4392-8a2a-51bac5548528-user-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Chill Bill (feat. J. Davi$ & Spooks)";
+    <https://schema.org/byArtist> <#artist-interaction-abba31cb-08c2-4392-8a2a-51bac5548528-user-4>.
+<#artist-interaction-abba31cb-08c2-4392-8a2a-51bac5548528-user-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Rob $tone".
+<#interaction-abba31cb-08c2-4392-8a2a-51bac5548528-user> <https://schema.org/role> "user_payload";
+    a <https://schema.org/UserInteraction>;
+    <https://schema.org/dateCreated> "2026-08-11T04:18:07.511Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/provider> "GPT";
+    <https://schema.org/suggestedMinAge> "18";
+    <https://schema.org/keywords> "enjoy";
+    <https://schema.org/genre> "indie", "country";
+    <https://schema.org/track> <#song-interaction-abba31cb-08c2-4392-8a2a-51bac5548528-user-0>, <#song-interaction-abba31cb-08c2-4392-8a2a-51bac5548528-user-1>, <#song-interaction-abba31cb-08c2-4392-8a2a-51bac5548528-user-2>, <#song-interaction-abba31cb-08c2-4392-8a2a-51bac5548528-user-3>, <#song-interaction-abba31cb-08c2-4392-8a2a-51bac5548528-user-4>.
+<#rec-song-interaction-f7074bfc-85d1-4adf-8868-c07c995f6348-assistant-0> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Ribbons And Bows";
+    <https://schema.org/byArtist> <#rec-artist-interaction-f7074bfc-85d1-4adf-8868-c07c995f6348-assistant-0>.
+<#rec-artist-interaction-f7074bfc-85d1-4adf-8868-c07c995f6348-assistant-0> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Kacey Musgraves".
+<#rec-song-interaction-f7074bfc-85d1-4adf-8868-c07c995f6348-assistant-1> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Blue Collar Boys";
+    <https://schema.org/byArtist> <#rec-artist-interaction-f7074bfc-85d1-4adf-8868-c07c995f6348-assistant-1>.
+<#rec-artist-interaction-f7074bfc-85d1-4adf-8868-c07c995f6348-assistant-1> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Luke Combs".
+<#rec-song-interaction-f7074bfc-85d1-4adf-8868-c07c995f6348-assistant-2> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Last Drive Down Main";
+    <https://schema.org/byArtist> <#rec-artist-interaction-f7074bfc-85d1-4adf-8868-c07c995f6348-assistant-2>.
+<#rec-artist-interaction-f7074bfc-85d1-4adf-8868-c07c995f6348-assistant-2> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Morgan Wallen".
+<#rec-song-interaction-f7074bfc-85d1-4adf-8868-c07c995f6348-assistant-3> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Broken Halos";
+    <https://schema.org/byArtist> <#rec-artist-interaction-f7074bfc-85d1-4adf-8868-c07c995f6348-assistant-3>.
+<#rec-artist-interaction-f7074bfc-85d1-4adf-8868-c07c995f6348-assistant-3> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Chris Stapleton".
+<#rec-song-interaction-f7074bfc-85d1-4adf-8868-c07c995f6348-assistant-4> a <https://schema.org/MusicRecording>;
+    <https://schema.org/name> "Time for Me to Come Home (feat. Dorothy Shackleford)";
+    <https://schema.org/byArtist> <#rec-artist-interaction-f7074bfc-85d1-4adf-8868-c07c995f6348-assistant-4>.
+<#rec-artist-interaction-f7074bfc-85d1-4adf-8868-c07c995f6348-assistant-4> a <https://schema.org/MusicGroup>;
+    <https://schema.org/name> "Blake Shelton".
+<#interaction-f7074bfc-85d1-4adf-8868-c07c995f6348-assistant> <https://schema.org/role> "assistant_response";
+    a <https://schema.org/SearchAction>;
+    <https://schema.org/dateCreated> "2026-08-11T04:18:07.511Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    <https://schema.org/result> <#rec-song-interaction-f7074bfc-85d1-4adf-8868-c07c995f6348-assistant-0>, <#rec-song-interaction-f7074bfc-85d1-4adf-8868-c07c995f6348-assistant-1>, <#rec-song-interaction-f7074bfc-85d1-4adf-8868-c07c995f6348-assistant-2>, <#rec-song-interaction-f7074bfc-85d1-4adf-8868-c07c995f6348-assistant-3>, <#rec-song-interaction-f7074bfc-85d1-4adf-8868-c07c995f6348-assistant-4>;
+    <https://schema.org/responseTime> 14478;
+    <https://schema.org/inputTokens> 3874;
+    <https://schema.org/outputTokens> 288.
