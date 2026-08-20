@@ -4,7 +4,6 @@ import {
     getStringNoLocaleAll, getUrl, getUrlAll, getInteger, getDatetime
 } from '@inrupt/solid-client';
 import { v4 as uuidv4 } from 'uuid';
-
 const SCHEMA = "https://schema.org/";
 const RDF_TYPE = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type";
 
