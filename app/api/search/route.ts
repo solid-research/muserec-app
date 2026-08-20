@@ -7,30 +7,29 @@ const Database = require('better-sqlite3');
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
-export const maxDuration = 60; // ⏱️ Izinkan cold start download 400MB
+export const maxDuration = 60;
 
 // ═══════════════════════════════════════════════════════════════════
-// 🔧 KONFIGURASI DB (Download ke /tmp saat cold start)
+// 🔧 KONFIGURASI DB
 // ═══════════════════════════════════════════════════════════════════
 const DB_URL = process.env.BLOB_DB_URL || process.env.DB_URL;
 const DB_PATH = '/tmp/data.db';
-const DB_EXPECTED_SIZE_MB = 400; // perkiraan ukuran
-const DB_MIN_VALID_SIZE = DB_EXPECTED_SIZE_MB * 0.90 * 1024 * 1024; // 90% threshold
+const DB_EXPECTED_SIZE_MB = 400;
+const DB_MIN_VALID_SIZE = DB_EXPECTED_SIZE_MB * 0.90 * 1024 * 1024;
 
 const globalForDb = globalThis as unknown as {
     db: InstanceType<typeof Database> | null;
     fts5Available: boolean | null;
     dbPromise: Promise<void> | null;
+    dbCached: boolean | null;  // ✅ NEW: track apakah DB dari cache atau download baru
 };
 
 /**
  * 🚀 Pastikan DB tersedia di /tmp (download jika belum).
- * Menggunakan Promise singleton agar concurrent cold-start tidak download 2x.
  */
 async function ensureDb(): Promise<InstanceType<typeof Database>> {
     if (globalForDb.db) return globalForDb.db;
 
-    // Lock: kalau ada yang lagi download, tunggu saja
     if (globalForDb.dbPromise) {
         await globalForDb.dbPromise;
         if (globalForDb.db) return globalForDb.db;
@@ -38,14 +37,16 @@ async function ensureDb(): Promise<InstanceType<typeof Database>> {
 
     globalForDb.dbPromise = (async () => {
         let needDownload = true;
+        globalForDb.dbCached = false;  // ✅ default: not cached
 
-        // Cek apakah DB sudah ada & valid di /tmp (persist antar warm invocation)
+        // Cek apakah DB sudah ada & valid di /tmp
         if (fs.existsSync(DB_PATH)) {
             try {
                 const stat = fs.statSync(DB_PATH);
                 if (stat.size >= DB_MIN_VALID_SIZE && isSQLiteHeader(DB_PATH)) {
                     console.log(`[DB] ✅ Found valid cached DB in /tmp (${(stat.size / 1024 / 1024).toFixed(1)} MB)`);
                     needDownload = false;
+                    globalForDb.dbCached = true;  // ✅ pakai cache
                 } else {
                     console.log(`[DB] ⚠️ Invalid cached DB (size=${stat.size}, header=${peekHeader(DB_PATH)}). Re-downloading...`);
                     fs.unlinkSync(DB_PATH);
@@ -68,8 +69,7 @@ async function ensureDb(): Promise<InstanceType<typeof Database>> {
             const start = Date.now();
             
             const res = await fetch(DB_URL, {
-                // Timeout 30 detik untuk file 400MB
-                signal: AbortSignal.timeout(30_000),
+                signal: AbortSignal.timeout(60_000),
             });
 
             if (!res.ok) {
@@ -80,14 +80,12 @@ async function ensureDb(): Promise<InstanceType<typeof Database>> {
             const expectedBytes = contentLength ? parseInt(contentLength, 10) : null;
             console.log(`[DB] Content-Length: ${expectedBytes ? (expectedBytes / 1024 / 1024).toFixed(1) + ' MB' : 'unknown'}`);
 
-            // Streaming write (hemat memory, tidak load 400MB ke RAM sekaligus)
             const buffer = Buffer.from(await res.arrayBuffer());
             fs.writeFileSync(DB_PATH, buffer);
 
             const elapsed = Date.now() - start;
             console.log(`[DB] ✅ Downloaded in ${elapsed}ms (${(buffer.length / 1024 / 1024).toFixed(1)} MB)`);
 
-            // Validasi hasil download
             if (buffer.length < DB_MIN_VALID_SIZE) {
                 fs.unlinkSync(DB_PATH);
                 throw new Error(
@@ -105,9 +103,10 @@ async function ensureDb(): Promise<InstanceType<typeof Database>> {
                     `Header: "${header}". Pastikan URL menunjuk ke file .db, bukan HTML 404.`
                 );
             }
+
+            globalForDb.dbCached = false;  // ✅ baru didownload
         }
 
-        // Buka DB (readonly karena /tmp boleh write tapi kita tidak perlu)
         globalForDb.db = new Database(DB_PATH, { readonly: true });
 
         try {
@@ -126,7 +125,6 @@ async function ensureDb(): Promise<InstanceType<typeof Database>> {
     return globalForDb.db!;
 }
 
-/** Cek header 16-byte file apakah "SQLite format 3\0" */
 function isSQLiteHeader(filePath: string): boolean {
     try {
         const fd = fs.openSync(filePath, 'r');
@@ -139,7 +137,6 @@ function isSQLiteHeader(filePath: string): boolean {
     }
 }
 
-/** Baca 60 byte pertama untuk debug */
 function peekHeader(filePath: string): string {
     try {
         const fd = fs.openSync(filePath, 'r');
@@ -153,7 +150,7 @@ function peekHeader(filePath: string): string {
 }
 
 // ═══════════════════════════════════════════════════════════════════
-// 🧹 HELPER FUNCTIONS (unchanged)
+// 🧹 HELPER FUNCTIONS
 // ═══════════════════════════════════════════════════════════════════
 
 function sanitize(str: string): string {
@@ -188,7 +185,6 @@ export async function POST(req: NextRequest) {
             excludeSongs = [],
         } = body;
 
-        // 🎯 PRIORITY ARTISTS
         const priorityArtistsSet = new Set<string>();
         [...likedArtists, ...filteredArtists, ...artistsInDb].forEach(a => {
             if (a && typeof a === 'string') {
@@ -208,6 +204,10 @@ export async function POST(req: NextRequest) {
         console.log(`   Limit:            ${limit}`);
 
         const database = await ensureDb();
+        
+        // ✅ SIMPAN STATUS CACHED SEBELUM QUERY
+        const wasCached = globalForDb.dbCached === true;
+        
         const candidates: any[] = [];
         const seen = new Set<string>();
         const strategyStats: Record<string, number> = {
@@ -488,6 +488,7 @@ export async function POST(req: NextRequest) {
         console.log(`   Avg popularity:   ${avgPopularity.toFixed(1)}`);
         console.log(`   Strategy stats:   ${JSON.stringify(strategyStats)}`);
         console.log(`   Source dist:      ${JSON.stringify(sourceStats)}`);
+        console.log(`   DB cached:        ${wasCached ? 'YES ⚡' : 'NO (downloaded)'}`);
         
         console.log(`\n🎯 PRIORITY ARTIST DISTRIBUTION:`);
         if (priorityArtistStats.length > 0) {
@@ -523,7 +524,7 @@ export async function POST(req: NextRequest) {
                 latencyMs: totalLatency,
                 fts5Available: globalForDb.fts5Available,
                 dbPath: DB_PATH,
-                dbCached: !needDownload,
+                dbCached: wasCached,  // ✅ FIXED: pakai wasCached yang sudah di-set
             }
         });
 
