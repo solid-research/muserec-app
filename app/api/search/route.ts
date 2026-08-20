@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from 'next/server';
-import path from 'path';
 import fs from 'fs';
 import { createRequire } from 'module';
 
@@ -8,30 +7,154 @@ const Database = require('better-sqlite3');
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
+export const maxDuration = 60; // ⏱️ Izinkan cold start download 400MB
+
+// ═══════════════════════════════════════════════════════════════════
+// 🔧 KONFIGURASI DB (Download ke /tmp saat cold start)
+// ═══════════════════════════════════════════════════════════════════
+const DB_URL = process.env.BLOB_DB_URL || process.env.DB_URL;
+const DB_PATH = '/tmp/data.db';
+const DB_EXPECTED_SIZE_MB = 400; // perkiraan ukuran
+const DB_MIN_VALID_SIZE = DB_EXPECTED_SIZE_MB * 0.90 * 1024 * 1024; // 90% threshold
 
 const globalForDb = globalThis as unknown as {
     db: InstanceType<typeof Database> | null;
     fts5Available: boolean | null;
+    dbPromise: Promise<void> | null;
 };
 
-function getDb() {
-    if (!globalForDb.db) {
-        const dbPath = path.join(process.cwd(), 'data', 'data.db');
-        if (!fs.existsSync(dbPath)) {
-            throw new Error(`Database not found at: ${dbPath}`);
+/**
+ * 🚀 Pastikan DB tersedia di /tmp (download jika belum).
+ * Menggunakan Promise singleton agar concurrent cold-start tidak download 2x.
+ */
+async function ensureDb(): Promise<InstanceType<typeof Database>> {
+    if (globalForDb.db) return globalForDb.db;
+
+    // Lock: kalau ada yang lagi download, tunggu saja
+    if (globalForDb.dbPromise) {
+        await globalForDb.dbPromise;
+        if (globalForDb.db) return globalForDb.db;
+    }
+
+    globalForDb.dbPromise = (async () => {
+        let needDownload = true;
+
+        // Cek apakah DB sudah ada & valid di /tmp (persist antar warm invocation)
+        if (fs.existsSync(DB_PATH)) {
+            try {
+                const stat = fs.statSync(DB_PATH);
+                if (stat.size >= DB_MIN_VALID_SIZE && isSQLiteHeader(DB_PATH)) {
+                    console.log(`[DB] ✅ Found valid cached DB in /tmp (${(stat.size / 1024 / 1024).toFixed(1)} MB)`);
+                    needDownload = false;
+                } else {
+                    console.log(`[DB] ⚠️ Invalid cached DB (size=${stat.size}, header=${peekHeader(DB_PATH)}). Re-downloading...`);
+                    fs.unlinkSync(DB_PATH);
+                }
+            } catch (err) {
+                console.warn('[DB] ⚠️ Failed to inspect cached DB:', err);
+                needDownload = true;
+            }
         }
-        globalForDb.db = new Database(dbPath, { readonly: true });
+
+        if (needDownload) {
+            if (!DB_URL) {
+                throw new Error(
+                    `[DB] DB_URL tidak diset. Set env var BLOB_DB_URL atau DB_URL ke URL file DB 400MB Anda ` +
+                    `(Vercel Blob, Cloudflare R2, atau CDN publik).`
+                );
+            }
+
+            console.log(`[DB] ⬇️  Downloading ${DB_EXPECTED_SIZE_MB}MB DB from ${DB_URL}...`);
+            const start = Date.now();
+            
+            const res = await fetch(DB_URL, {
+                // Timeout 30 detik untuk file 400MB
+                signal: AbortSignal.timeout(30_000),
+            });
+
+            if (!res.ok) {
+                throw new Error(`[DB] Failed to fetch DB: ${res.status} ${res.statusText}`);
+            }
+
+            const contentLength = res.headers.get('content-length');
+            const expectedBytes = contentLength ? parseInt(contentLength, 10) : null;
+            console.log(`[DB] Content-Length: ${expectedBytes ? (expectedBytes / 1024 / 1024).toFixed(1) + ' MB' : 'unknown'}`);
+
+            // Streaming write (hemat memory, tidak load 400MB ke RAM sekaligus)
+            const buffer = Buffer.from(await res.arrayBuffer());
+            fs.writeFileSync(DB_PATH, buffer);
+
+            const elapsed = Date.now() - start;
+            console.log(`[DB] ✅ Downloaded in ${elapsed}ms (${(buffer.length / 1024 / 1024).toFixed(1)} MB)`);
+
+            // Validasi hasil download
+            if (buffer.length < DB_MIN_VALID_SIZE) {
+                fs.unlinkSync(DB_PATH);
+                throw new Error(
+                    `[DB] Downloaded file terlalu kecil (${(buffer.length / 1024 / 1024).toFixed(1)}MB). ` +
+                    `Minimum: ${(DB_MIN_VALID_SIZE / 1024 / 1024).toFixed(1)}MB. ` +
+                    `Kemungkinan URL salah atau file korup.`
+                );
+            }
+
+            if (!isSQLiteHeader(DB_PATH)) {
+                const header = peekHeader(DB_PATH);
+                fs.unlinkSync(DB_PATH);
+                throw new Error(
+                    `[DB] File yang didownload BUKAN SQLite valid. ` +
+                    `Header: "${header}". Pastikan URL menunjuk ke file .db, bukan HTML 404.`
+                );
+            }
+        }
+
+        // Buka DB (readonly karena /tmp boleh write tapi kita tidak perlu)
+        globalForDb.db = new Database(DB_PATH, { readonly: true });
+
         try {
             const tables = globalForDb.db
                 .prepare(`SELECT name FROM sqlite_master WHERE type='table' AND name LIKE '%fts%'`)
                 .all();
             globalForDb.fts5Available = tables.length > 0;
-        } catch {
+            console.log(`[DB] ✅ FTS5 available: ${globalForDb.fts5Available}`);
+        } catch (err: any) {
+            console.warn(`[DB] ⚠️ FTS5 check failed: ${err.message}`);
             globalForDb.fts5Available = false;
         }
-    }
-    return globalForDb.db;
+    })();
+
+    await globalForDb.dbPromise;
+    return globalForDb.db!;
 }
+
+/** Cek header 16-byte file apakah "SQLite format 3\0" */
+function isSQLiteHeader(filePath: string): boolean {
+    try {
+        const fd = fs.openSync(filePath, 'r');
+        const head = Buffer.alloc(16);
+        fs.readSync(fd, head, 0, 16, 0);
+        fs.closeSync(fd);
+        return head.toString('utf8', 0, 15) === 'SQLite format 3';
+    } catch {
+        return false;
+    }
+}
+
+/** Baca 60 byte pertama untuk debug */
+function peekHeader(filePath: string): string {
+    try {
+        const fd = fs.openSync(filePath, 'r');
+        const head = Buffer.alloc(60);
+        fs.readSync(fd, head, 0, 60, 0);
+        fs.closeSync(fd);
+        return head.toString('utf8').replace(/[^\x20-\x7E]/g, '?').slice(0, 50);
+    } catch {
+        return '<unreadable>';
+    }
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// 🧹 HELPER FUNCTIONS (unchanged)
+// ═══════════════════════════════════════════════════════════════════
 
 function sanitize(str: string): string {
     return str.replace(/[^a-zA-Z0-9\s]/g, '').trim();
@@ -41,6 +164,10 @@ function popularityBonus(popularity: number | null | undefined): number {
     if (popularity == null) return 0;
     return Math.min(100, Math.max(0, popularity));
 }
+
+// ═══════════════════════════════════════════════════════════════════
+// 🎯 MAIN HANDLER
+// ═══════════════════════════════════════════════════════════════════
 
 export async function POST(req: NextRequest) {
     const startTime = Date.now();
@@ -61,7 +188,7 @@ export async function POST(req: NextRequest) {
             excludeSongs = [],
         } = body;
 
-        // 🎯 PRIORITY ARTISTS: gabungan semua artist pilihan user (deduplicate, case-insensitive)
+        // 🎯 PRIORITY ARTISTS
         const priorityArtistsSet = new Set<string>();
         [...likedArtists, ...filteredArtists, ...artistsInDb].forEach(a => {
             if (a && typeof a === 'string') {
@@ -80,7 +207,7 @@ export async function POST(req: NextRequest) {
         console.log(`   🎯 Priority Artists: ${priorityArtists.length} → ${priorityArtists.slice(0, 5).join(', ')}${priorityArtists.length > 5 ? '...' : ''}`);
         console.log(`   Limit:            ${limit}`);
 
-        const database = getDb();
+        const database = await ensureDb();
         const candidates: any[] = [];
         const seen = new Set<string>();
         const strategyStats: Record<string, number> = {
@@ -113,7 +240,6 @@ export async function POST(req: NextRequest) {
 
             seen.add(key);
 
-            // 🎯 SCORING: artistBonus (300) + baseScore + popularityBonus (0-100)
             const isPriority = forcePriority || isPriorityArtist(row.artist_name);
             const artistMatchBonus = isPriority ? 300 : 0;
             const popBonus = popularityBonus(row.popularity);
@@ -131,7 +257,7 @@ export async function POST(req: NextRequest) {
         };
 
         // ═══════════════════════════════════════════════════════════
-        // 🎯 STRATEGY 0: PRIORITY ARTISTS - GUARANTEED SLOTS (25/artist)
+        // 🎯 STRATEGY 0: PRIORITY ARTISTS
         // ═══════════════════════════════════════════════════════════
         console.log('\n🎯 [STRATEGY 0] Priority Artists - Guaranteed Slots');
         
@@ -165,7 +291,7 @@ export async function POST(req: NextRequest) {
         }
 
         // ═══════════════════════════════════════════════════════════
-        // STRATEGY 1B: PARTIAL ARTIST MATCH (artistsNotInDb)
+        // STRATEGY 1B: PARTIAL ARTIST MATCH
         // ═══════════════════════════════════════════════════════════
         console.log('\n🔎 [STRATEGY 1B] Partial Artist Match');
         if (artistsNotInDb.length > 0) {
@@ -321,7 +447,7 @@ export async function POST(req: NextRequest) {
         }));
 
         // ═══════════════════════════════════════════════════════════
-        // 📊 STATISTIK PER ARTIST
+        // 📊 STATISTIK
         // ═══════════════════════════════════════════════════════════
         const artistDistribution: Record<string, number> = {};
         const priorityArtistStats: { artist: string; count: number; avgPop: number }[] = [];
@@ -355,6 +481,8 @@ export async function POST(req: NextRequest) {
             ? finalResults.reduce((sum, r) => sum + (r.popularity || 0), 0) / finalResults.length
             : 0;
 
+        const totalLatency = Date.now() - startTime;
+        
         console.log(`\n✅ SEARCH COMPLETE`);
         console.log(`   Total candidates: ${finalResults.length}`);
         console.log(`   Avg popularity:   ${avgPopularity.toFixed(1)}`);
@@ -380,7 +508,7 @@ export async function POST(req: NextRequest) {
                 console.log(`   ${isPri} ${(i + 1).toString().padStart(2)}. ${artist.padEnd(30)} → ${count} songs`);
             });
 
-        console.log(`\n   Latency: ${Date.now() - startTime}ms`);
+        console.log(`\n   Latency: ${totalLatency}ms`);
         console.log('╔══════════════════════════════════════════════════════╗');
 
         return NextResponse.json({
@@ -392,15 +520,26 @@ export async function POST(req: NextRequest) {
                 priorityArtistStats: priorityArtistStats,
                 strategies: strategyStats,
                 sources: sourceStats,
-                latencyMs: Date.now() - startTime,
+                latencyMs: totalLatency,
                 fts5Available: globalForDb.fts5Available,
+                dbPath: DB_PATH,
+                dbCached: !needDownload,
             }
         });
 
     } catch (err: any) {
         console.error('❌ [SEARCH FATAL]', err);
         return NextResponse.json(
-            { error: err.message, songs: [], debug: { message: err.message } },
+            { 
+                error: err.message, 
+                songs: [], 
+                debug: { 
+                    message: err.message,
+                    hint: err.message.includes('DB_URL') 
+                        ? 'Set env var BLOB_DB_URL ke URL public file DB Anda (Vercel Blob / R2)' 
+                        : undefined
+                } 
+            },
             { status: 500 }
         );
     }
