@@ -609,15 +609,13 @@ OUTPUT JSON array ONLY:
                                     onChange={(e) => setLlm(e.target.value)}
                                     className="block w-full rounded-md border-0 py-2.5 px-3 shadow-sm ring-1 ring-inset ring-gray-300 text-sm bg-white focus:ring-2 focus:ring-indigo-500"
                                 >
-                                    <option value="GPT-4o">🧠 OpenAI GPT-4o (Paling Seimbang & Akurat)</option>
-                                    <option value="Claude 3.5 Sonnet">🎨 Anthropic Claude 3.5 Sonnet (Paling Kreatif & Nuansa Musik)</option>
-                                    <option value="Gemini 2.0 Flash">⚡ Google Gemini 2.0 Flash (Sangat Cepat & Efisien)</option>
-                                    <option value="Llama 3.1 405B">🦙 Meta Llama 3.1 405B (Open-Source Terkuat)</option>
-                                    <option value="Mistral Nemo">🚀 Mistral Nemo (Ringan & Responsif)</option>
+                                    <option value="GPT-4o"> OpenAI GPT-4o </option>
+                                    <option value="Claude 3.5 Sonnet">Anthropic Claude 3.5 Sonnet</option>
+                                    <option value="Gemini 2.0 Flash">⚡ Google Gemini 2.0 Flash </option>
+                                    <option value="Llama 3.1 405B">🦙 Meta Llama 3.1 405B </option>
+                                    <option value="Mistral Nemo">Mistral Nemo </option>
                                 </select>
-                                <p className="text-xs text-gray-500 mt-2">
-                                    *Pastikan saldo OpenRouter Anda mencukupi, atau gunakan model berakhiran <code className="bg-gray-200 px-1 rounded text-gray-800">:free</code> (misal: <code className="bg-gray-200 px-1 rounded text-gray-800">meta-llama/llama-3-8b-instruct:free</code>) untuk testing tanpa biaya.
-                                </p>
+                        
                             </div>
 
                             <button

@@ -117,7 +117,12 @@ export async function POST(req: NextRequest) {
       console.log(`[Router 🔄] Auto-fix model untuk OpenRouter: "${model}" → "${finalModel}"`);
     }
 
-    console.log(`[Router 📤] Forwarding to OpenRouter with model: ${finalModel}`);
+    // ✅ PERBAIKAN KRUSIAL: Hapus semua trailing slash (/) di akhir URL secara otomatis
+    // agar tidak terjadi double slash (//) yang menyebabkan error 404 di OpenRouter
+    const cleanApiUrl = API_URL.replace(/\/+$/, '');
+    const requestUrl = `${cleanApiUrl}/chat/completions`;
+    
+    console.log(`[Router 📤] Forwarding to: ${requestUrl} with model: ${finalModel}`);
 
     const headers: Record<string, string> = {
       'Authorization': `Bearer ${API_KEY}`,
@@ -126,7 +131,7 @@ export async function POST(req: NextRequest) {
       'X-Title': 'Muserec App'
     };
 
-    const response = await fetch(`${API_URL}/chat/completions`, {
+    const response = await fetch(requestUrl, { // <-- Gunakan requestUrl yang sudah dibersihkan
       method: 'POST',
       headers,
       body: JSON.stringify({ model: finalModel, messages, stream }),
