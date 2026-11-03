@@ -7,16 +7,6 @@ export const dynamic = 'force-dynamic';
 const API_URL = process.env.API_URL || 'https://openrouter.ai/api/v1';
 const API_KEY = process.env.OPENROUTER_API_KEY;
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
-
-// Mapping model sederhana untuk normalisasi
-const GEMINI_MODEL_MAP: Record<string, string> = {
-  'gemini-pro': 'gemini-1.5-flash',
-  'gemini-1.5-pro': 'gemini-1.5-flash',
-  'gemini-1.5-flash': 'gemini-1.5-flash',
-  'gemini-2.0-flash': 'gemini-1.5-flash',
-  'gemini-2.0-flash-exp': 'gemini-1.5-flash',
-};
 
 export async function POST(req: NextRequest) {
   try {
@@ -32,27 +22,26 @@ export async function POST(req: NextRequest) {
 
     const lowerModel = model.toLowerCase();
     const isGemini = lowerModel.includes('gemini');
-    const isAnthropic = lowerModel.includes('claude');
 
     // ==========================================================
-    // RUTE 1: GEMINI API
+    // RUTE 1: GEMINI API (Langsung ke Google)
     // ==========================================================
     if (isGemini) {
       if (!GEMINI_API_KEY) {
-        console.error('[Gemini ❌] GEMINI_API_KEY tidak ditemukan di Environment Variables.');
-        return NextResponse.json({ error: 'Server configuration error: Gemini API Key missing' }, { status: 500 });
+        console.error('[Gemini ❌] GEMINI_API_KEY tidak ditemukan.');
+        return NextResponse.json({ error: 'Server config error: Gemini API Key missing' }, { status: 500 });
       }
 
-      // ✅ PERBAIKAN: Menerima format lama (AIzaSy) DAN format baru Auth Key (AQ.)
+      // Menerima format lama (AIzaSy) DAN format baru Auth Key (AQ.)
       const isValidGeminiKey = GEMINI_API_KEY.startsWith('AIzaSy') || GEMINI_API_KEY.startsWith('AQ.');
       if (!isValidGeminiKey) {
-        console.error('[Gemini ❌] Format GEMINI_API_KEY tidak valid. Harus diawali dengan "AIzaSy" atau "AQ.". Key saat ini:', GEMINI_API_KEY.substring(0, 6) + '...');
-        return NextResponse.json({ 
-          error: 'Invalid Gemini API Key format. Key harus diawali dengan "AIzaSy" atau "AQ.".' 
-        }, { status: 500 });
+        console.error('[Gemini ❌] Format key tidak valid:', GEMINI_API_KEY.substring(0, 6) + '...');
+        return NextResponse.json({ error: 'Invalid Gemini API Key format.' }, { status: 500 });
       }
 
-      const resolvedModel = GEMINI_MODEL_MAP[model] || model; // Fallback ke model asli jika tidak ada di map
+      // Normalisasi nama model untuk Google API
+      const resolvedModel = model.includes('gemini-2.0') ? 'gemini-2.0-flash' : 'gemini-1.5-flash';
+      
       let systemPrompt = "";
       const geminiContents: any[] = [];
 
@@ -76,7 +65,7 @@ export async function POST(req: NextRequest) {
 
       const geminiBody: any = {
         contents: geminiContents,
-        generationConfig: { temperature: 0.7, maxOutputTokens: 8192 },
+        generationConfig: { temperature: 0.7, maxOutputTokens: 4096 },
       };
       if (systemPrompt.trim()) {
         geminiBody.systemInstruction = { parts: [{ text: systemPrompt.trim() }] };
@@ -92,8 +81,7 @@ export async function POST(req: NextRequest) {
 
       if (!response.ok) {
         const errText = await response.text();
-        console.error(`[Gemini ❌ Upstream Error] Status: ${response.status}`);
-        console.error(`[Gemini ❌ Upstream Body] ${errText}`);
+        console.error(`[Gemini ❌ Upstream Error] Status: ${response.status} | Body: ${errText}`);
         return NextResponse.json(
           { error: `Gemini API Error (${response.status})`, details: errText },
           { status: response.status === 400 || response.status === 401 ? response.status : 500 }
@@ -113,62 +101,51 @@ export async function POST(req: NextRequest) {
     }
 
     // ==========================================================
-    // RUTE 2: OPENROUTER / LITELLM (Fallback untuk model lain)
+    // RUTE 2: OPENROUTER (GPT-4o, Claude, Llama, Mistral, dll)
     // ==========================================================
     if (!API_KEY) {
-      console.error('[OpenRouter ❌] OPENROUTER_API_KEY tidak ditemukan di Environment Variables.');
-      return NextResponse.json({ error: 'Server configuration error: API Key missing' }, { status: 500 });
+      console.error('[OpenRouter ❌] OPENROUTER_API_KEY tidak ditemukan.');
+      return NextResponse.json({ error: 'Server config error: OpenRouter API Key missing' }, { status: 500 });
     }
 
-    // ✅ PERBAIKAN: Tambahkan prefix provider jika menggunakan OpenRouter dan model tidak memilikinya
     let finalModel = model;
+    
+    // ✅ PERBAIKAN PENTING: Hanya tambahkan 'openai/' jika model TIDAK sudah memiliki prefix '/'
+    // Contoh: 'gpt-4o' -> 'openai/gpt-4o', TAPI 'anthropic/claude-3.5-sonnet' tetap utuh.
     if (API_URL.includes('openrouter.ai') && !finalModel.includes('/')) {
       finalModel = `openai/${finalModel}`; 
       console.log(`[Router 🔄] Auto-fix model untuk OpenRouter: "${model}" → "${finalModel}"`);
     }
 
-    console.log(`[Router 📤] Forwarding to: ${API_URL} with model: ${finalModel}`);
+    console.log(`[Router 📤] Forwarding to OpenRouter with model: ${finalModel}`);
 
     const headers: Record<string, string> = {
       'Authorization': `Bearer ${API_KEY}`,
       'Content-Type': 'application/json',
+      'HTTP-Referer': process.env.NEXT_PUBLIC_APP_URL || 'https://muserec-app.vercel.app',
+      'X-Title': 'Muserec App'
     };
-
-    // Header wajib jika menggunakan OpenRouter langsung
-    if (API_URL.includes('openrouter.ai')) {
-      headers['HTTP-Referer'] = process.env.NEXT_PUBLIC_APP_URL || 'https://muserec-app.vercel.app';
-      headers['X-Title'] = 'Muserec App';
-    }
 
     const response = await fetch(`${API_URL}/chat/completions`, {
       method: 'POST',
       headers,
-      body: JSON.stringify({ 
-        model: finalModel, // Gunakan finalModel yang sudah diperbaiki
-        messages, 
-        stream 
-      }),
+      body: JSON.stringify({ model: finalModel, messages, stream }),
     });
 
     if (!response.ok) {
       const errText = await response.text();
-      console.error(`[Provider ❌ Upstream Error] Status: ${response.status}`);
-      console.error(`[Provider ❌ Upstream Body] ${errText}`);
+      console.error(`[Provider ❌ Upstream Error] Status: ${response.status} | Body: ${errText}`);
       
       return NextResponse.json(
         { error: `Provider API Error (${response.status})`, details: errText },
-        { status: response.status === 401 || response.status === 403 || response.status === 404 ? response.status : 500 }
+        { status: response.status === 401 || response.status === 402 || response.status === 404 ? response.status : 500 }
       );
     }
 
     if (stream) {
       return new NextResponse(response.body, {
         status: 200,
-        headers: {
-          'Content-Type': 'text/event-stream',
-          'Cache-Control': 'no-cache',
-          'Connection': 'keep-alive',
-        },
+        headers: { 'Content-Type': 'text/event-stream', 'Cache-Control': 'no-cache', 'Connection': 'keep-alive' },
       });
     }
 
@@ -177,9 +154,6 @@ export async function POST(req: NextRequest) {
 
   } catch (err: any) {
     console.error("[Router ❌ Unhandled Exception]", err);
-    return NextResponse.json(
-      { error: 'Internal Server Error', details: err.message }, 
-      { status: 500 }
-    );
+    return NextResponse.json({ error: 'Internal Server Error', details: err.message }, { status: 500 });
   }
 }
