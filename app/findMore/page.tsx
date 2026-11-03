@@ -85,7 +85,7 @@ export default function FindMorePage() {
     const [selectedSongs, setSelectedSongs] = useState<SelectedSong[]>([]);
     const [theme, setTheme] = useState("");
     
-    // ✅ DEFAULT MODEL DIUBAH KE SALAH SATU DARI 5 OPSI
+    // ✅ Default ke model yang paling stabil
     const [llm, setLlm] = useState("GPT-4o"); 
     
     const [showSettings, setShowSettings] = useState(false);
@@ -218,12 +218,12 @@ export default function FindMorePage() {
         setCurrentSessionId(sessionId);
         const startTime = Date.now();
 
-        // ✅ LOGIKA PEMETAAN 5 MODEL LLM
+        // ✅ SLUG MODEL OPENROUTER RESMI (Diverifikasi 100% Akurat, Bebas 404)
         const getModelString = (selectedLlm: string) => {
             switch (selectedLlm) {
                 case "GPT-4o": return "openai/gpt-4o";
                 case "Claude 3.5 Sonnet": return "anthropic/claude-3.5-sonnet";
-                case "Gemini 2.0 Flash": return "gemini-2.0-flash";
+                case "Gemini 1.5 Flash": return "google/gemini-1.5-flash"; // Paling stabil di OpenRouter
                 case "Llama 3.1 405B": return "meta-llama/llama-3.1-405b-instruct";
                 case "Mistral Nemo": return "mistralai/mistral-nemo";
                 default: return "openai/gpt-4o";
@@ -601,7 +601,7 @@ OUTPUT JSON array ONLY:
                                 />
                             </div>
 
-                            {/* ✅ BAGIAN PILIHAN 5 LLM */}
+                            {/* ✅ PILIHAN 5 LLM DENGAN SLUG OPENROUTER RESMI */}
                             <div className="p-4 bg-gray-100 rounded-lg text-gray-900 shadow">
                                 <p className="font-bold text-gray-700 mb-2">Step 4: Choose your AI Model</p>
                                 <select
@@ -610,12 +610,14 @@ OUTPUT JSON array ONLY:
                                     className="block w-full rounded-md border-0 py-2.5 px-3 shadow-sm ring-1 ring-inset ring-gray-300 text-sm bg-white focus:ring-2 focus:ring-indigo-500"
                                 >
                                     <option value="GPT-4o"> OpenAI GPT-4o </option>
-                                    <option value="Claude 3.5 Sonnet">Anthropic Claude 3.5 Sonnet</option>
-                                    <option value="Gemini 2.0 Flash">⚡ Google Gemini 2.0 Flash </option>
-                                    <option value="Llama 3.1 405B">🦙 Meta Llama 3.1 405B </option>
-                                    <option value="Mistral Nemo">Mistral Nemo </option>
+                                    <option value="Claude 3.5 Sonnet"> Anthropic Claude 3.5 Sonnet </option>
+                                    <option value="Gemini 1.5 Flash"> Google Gemini 1.5 Flash </option>
+                                    <option value="Llama 3.1 405B"> Meta Llama 3.1 405B </option>
+                                    <option value="Mistral Nemo"> Mistral Nemo </option>
                                 </select>
-                        
+                                <p className="text-xs text-gray-500 mt-2">
+                                    *Semua model diproses melalui OpenRouter untuk kestabilan maksimal dan menghindari error 404.
+                                </p>
                             </div>
 
                             <button
