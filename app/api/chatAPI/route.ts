@@ -9,12 +9,13 @@ const API_KEY = process.env.OPENROUTER_API_KEY;
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 
-// Mapping model sederhana
+// Mapping model sederhana untuk normalisasi
 const GEMINI_MODEL_MAP: Record<string, string> = {
   'gemini-pro': 'gemini-1.5-flash',
   'gemini-1.5-pro': 'gemini-1.5-flash',
   'gemini-1.5-flash': 'gemini-1.5-flash',
   'gemini-2.0-flash': 'gemini-1.5-flash',
+  'gemini-2.0-flash-exp': 'gemini-1.5-flash',
 };
 
 export async function POST(req: NextRequest) {
@@ -42,15 +43,16 @@ export async function POST(req: NextRequest) {
         return NextResponse.json({ error: 'Server configuration error: Gemini API Key missing' }, { status: 500 });
       }
 
-      // Validasi format kunci API Google
-      if (!GEMINI_API_KEY.startsWith('AIzaSy')) {
-        console.error('[Gemini ❌] Format GEMINI_API_KEY tidak valid. Harus diawali dengan "AIzaSy". Key saat ini:', GEMINI_API_KEY.substring(0, 6) + '...');
+      // ✅ PERBAIKAN: Menerima format lama (AIzaSy) DAN format baru Auth Key (AQ.)
+      const isValidGeminiKey = GEMINI_API_KEY.startsWith('AIzaSy') || GEMINI_API_KEY.startsWith('AQ.');
+      if (!isValidGeminiKey) {
+        console.error('[Gemini ❌] Format GEMINI_API_KEY tidak valid. Harus diawali dengan "AIzaSy" atau "AQ.". Key saat ini:', GEMINI_API_KEY.substring(0, 6) + '...');
         return NextResponse.json({ 
-          error: 'Invalid Gemini API Key format. Key harus diawali dengan "AIzaSy". Silakan buat kunci baru di Google AI Studio.' 
+          error: 'Invalid Gemini API Key format. Key harus diawali dengan "AIzaSy" atau "AQ.".' 
         }, { status: 500 });
       }
 
-      const resolvedModel = GEMINI_MODEL_MAP[model] || 'gemini-1.5-flash';
+      const resolvedModel = GEMINI_MODEL_MAP[model] || model; // Fallback ke model asli jika tidak ada di map
       let systemPrompt = "";
       const geminiContents: any[] = [];
 
@@ -118,7 +120,14 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Server configuration error: API Key missing' }, { status: 500 });
     }
 
-    console.log(`[Router 📤] Forwarding to: ${API_URL} with model: ${model}`);
+    // ✅ PERBAIKAN: Tambahkan prefix provider jika menggunakan OpenRouter dan model tidak memilikinya
+    let finalModel = model;
+    if (API_URL.includes('openrouter.ai') && !finalModel.includes('/')) {
+      finalModel = `openai/${finalModel}`; 
+      console.log(`[Router 🔄] Auto-fix model untuk OpenRouter: "${model}" → "${finalModel}"`);
+    }
+
+    console.log(`[Router 📤] Forwarding to: ${API_URL} with model: ${finalModel}`);
 
     const headers: Record<string, string> = {
       'Authorization': `Bearer ${API_KEY}`,
@@ -134,7 +143,11 @@ export async function POST(req: NextRequest) {
     const response = await fetch(`${API_URL}/chat/completions`, {
       method: 'POST',
       headers,
-      body: JSON.stringify({ model, messages, stream }),
+      body: JSON.stringify({ 
+        model: finalModel, // Gunakan finalModel yang sudah diperbaiki
+        messages, 
+        stream 
+      }),
     });
 
     if (!response.ok) {
@@ -144,7 +157,7 @@ export async function POST(req: NextRequest) {
       
       return NextResponse.json(
         { error: `Provider API Error (${response.status})`, details: errText },
-        { status: response.status === 401 || response.status === 403 ? response.status : 500 }
+        { status: response.status === 401 || response.status === 403 || response.status === 404 ? response.status : 500 }
       );
     }
 
