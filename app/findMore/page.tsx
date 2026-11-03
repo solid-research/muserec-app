@@ -610,14 +610,8 @@ OUTPUT JSON array ONLY:
                                     className="block w-full rounded-md border-0 py-2.5 px-3 shadow-sm ring-1 ring-inset ring-gray-300 text-sm bg-white focus:ring-2 focus:ring-indigo-500"
                                 >
                                     <option value="GPT-4o"> OpenAI GPT-4o </option>
-                                    <option value="Claude 3.5 Sonnet"> Anthropic Claude 3.5 Sonnet </option>
-                                    <option value="Gemini 1.5 Flash"> Google Gemini 1.5 Flash </option>
-                                    <option value="Llama 3.1 405B"> Meta Llama 3.1 405B </option>
                                     <option value="Mistral Nemo"> Mistral Nemo </option>
                                 </select>
-                                <p className="text-xs text-gray-500 mt-2">
-                                    *Semua model diproses melalui OpenRouter untuk kestabilan maksimal dan menghindari error 404.
-                                </p>
                             </div>
 
                             <button
